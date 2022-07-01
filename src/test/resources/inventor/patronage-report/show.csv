@@ -1,0 +1,5 @@
+recordIndex,creation,patronageId,automaticSequenceNumber,memorandum,link
+0,2011/01/07 19:15,WFA-389,WFA-389:0001,another important patronage,
+1,2012/03/08 14:30,WFA-389,WFA-389:0002,another important patronage,
+2,2018/09/23 12:00,BHG-532-S,BHG-532-S:0002,an important patronage,http://sample-link-01.com
+3,2020/12/11 16:00,BHG-532-S,BHG-532-S:0001,there isn't any memorandum for this patronage,

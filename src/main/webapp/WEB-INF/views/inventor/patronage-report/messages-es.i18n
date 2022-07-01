@@ -1,0 +1,10 @@
+inventor.patronage-report.form.label.automatic-sequence-number = Número de secuencia automático:
+inventor.patronage-report.form.label.creation = Fecha de creacion:
+inventor.patronage-report.form.label.memorandum = Memoria:
+inventor.patronage-report.form.label.link = Link:
+
+inventor.patronage-report.form.label.confirmation = Confirmar
+inventor.patronage-report.form.button.create = Create
+
+inventor.patronage-report.list.label.creation = Fecha de creacion
+inventor.patronage-report.list.label.patronage = Patrocinio asociado

@@ -1,0 +1,60 @@
+# master.menu #################################################################
+
+master.menu.home = Home
+master.menu.sign-up = Sign up
+master.menu.sign-in = Sign in
+master.menu.sign-out = Sign out
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anonymous
+
+master.menu.anonymous.user-account.list-all-user-accounts = List User Accounts
+master.menu.anonymous.chirp.list-recent = List recent chirps
+master.menu.anonymous.item.list = List published items
+master.menu.anonymous.toolkit.list = List published toolkits
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Authenticated
+
+master.menu.authenticated.user-account.list-all-user-accounts = List User Accounts
+master.menu.authenticated.chirp.list-recent = List recent chirps
+master.menu.authenticated.item.list = List published items
+master.menu.authenticated.toolkit.list = List published toolkits
+master.menu.authenticated.announcement.list-recent = List recent announcements
+master.menu.authenticated.system-configuration = System Configuration
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrator
+master.menu.administrator.shut-down = Shut down
+master.menu.administrator.populate-initial = Populate DB (initial)
+master.menu.administrator.populate-sample = Populate DB (samples)
+master.menu.administrator.system-configuration = Show system configuration
+master.menu.administrator.administrator-dashboard = Dashboard
+master.menu.administrator.announcement.list.button.create = Create announcement
+
+# master.menu.patron ##########################################################
+
+master.menu.patron = Patron
+master.menu.patron.my-patronage-reports = My patronage reports
+master.menu.patron.my-patronages = My patronages
+master.menu.patron.patron-dashboard = Dashboard
+
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.my-items = My items
+master.menu.inventor.my-patronage-reports = My patronage reports
+master.menu.inventor.my-patronages = My patronages
+master.menu.inventor.toolkit.list-mine-toolkits = My toolkits
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Account
+master.menu.user-account.general-data = General data
+master.menu.user-account.become-patron = Become a patron
+master.menu.user-account.patron = Patron data
+master.menu.user-account.become-inventor = Become an inventor
+master.menu.user-account.inventor = Inventor data

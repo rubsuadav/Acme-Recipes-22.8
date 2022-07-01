@@ -1,0 +1,12 @@
+key,status,code,legal-stuff,budget,initial,creation,end,link,key:inventor,key:patron,published
+patronage-01,PROPOSED,BHG-532-S,there isn't any legal stuff,"GBP 30,000.00",2022/03/12 23:00,2022/02/11 23:00,2022/04/11 23:00,null,inventor-01,patron-01,true
+patronage-02,DENIED,WFA-389,this patronage has one legal stuff,"EUR 60,030.90",2022/11/07 23:00,2021/02/11 23:00,2028/03/11 23:00,null,inventor-01,patron-02,false
+patronage-03,ACCEPTED,ERF-006-M,this is another patronage with an important legal stuff,"USD 15,300.90",2022/02/06 12:00,2022/01/05 12:00,2023/03/05 12:00,null,inventor-02,patron-01,false
+patronage-04,DENIED,ANA-512,this is the last patronage without legal stuff,"USD 100,000.00",2018/09/12 17:44,2017/02/25 01:00,2019/12/25 22:30,null,inventor-02,patron-02,false
+patronage-05,PROPOSED,EVA-631-K,can you see the legal stuff of this patronage?,"EUR 200,000.00",2018/07/13 16:44,2017/07/12 01:00,2019/12/25 22:30,null,inventor-03,patron-03,false
+patronage-06,ACCEPTED,BBV-147,this is a relevant patronage,"GBP 300,560.20",2017/09/12 17:44,2018/02/25 01:00,2019/12/25 22:30,null,inventor-02,patron-02,true
+patronage-07,PROPOSED,KHF-574-B,I can't show you the stuff here,"USD 205,056.70",2021/09/12 17:44,2022/02/25 01:00,2049/12/25 22:30,null,inventor-03,patron-03,false
+patronage-08,ACCEPTED,FAQ-672,this patronage have a lot of secrets. Be carefully,"EUR 500,250.80",2018/10/11 19:34,2017/10/25 01:00,2019/12/25 22:30,null,inventor-01,patron-01,false
+patronage-09,DENIED,PHD-491-Z,this is a particular patronage,"GBP 50,000.00",2010/09/12 17:44,2009/02/25 01:00,2019/12/25 22:30,null,inventor-02,patron-02,true
+patronage-10,PROPOSED,POG-674,expensive patronage,"GBP 600,900.00",2018/09/12 17:44,2017/02/25 01:00,2019/12/25 22:30,null,inventor-03,patron-03,true
+patronage-11,ACCEPTED,WAS-672,this patronage have a lot of secrets. Be carefully,"EUR 500,250.80",2018/10/11 19:34,2017/10/25 01:00,2019/12/25 22:30,null,inventor-01,patron-03,true

@@ -1,0 +1,13 @@
+key,creation-moment,title,body,critical-flag,link
+annoucement-01,2021/02/13 19:39,Title 1,An interesting monumental of the city,true,null
+annoucement-02,2019/02/18 22:39,Title 2,One of the most important announcement,false,http://happybirthday.com
+annoucement-03,2021/09/07 15:17,Title 3,Another important announcement with peculiar statements,false,null
+annoucement-04,2000/01/01 00:10,Title 4,OMG it was created in new year!!,true,http://www.example.org
+annoucement-05,2022/01/01 00:00,Title 5,There is no body to show in this,false,http://www.sample-app.com
+annoucement-06,2021/12/23 12:00,Title 6,No body to show,true,https://www.catedraldesevilla.es
+annoucement-07,2019/02/18 19:53,Title 7,This announcement is very important,false,http://www.us.es
+annoucement-08,2017/02/18 22:39,Title 8,Amazing announcement!,false,https://www.kidscanfly.ca/wp-content/uploads/2020/08/happy-birthday.jpeg
+annoucement-09,2021/02/18 22:39,Title 9,You can't depreciated it!,true,null
+annoucement-10,2022/02/18 22:39,Title 10,You can't see this announcement,true,null
+annoucement-11,2022/05/02 12:20,Title 11,New important announcement; see it now!,true,http://www.us.es
+annoucement-12,2022/03/10 22:39,Title 12,You can't depreciated it!,false,null

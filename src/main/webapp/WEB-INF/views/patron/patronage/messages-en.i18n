@@ -1,0 +1,32 @@
+patron.patronage.form.label.status = Status:
+patron.patronage.form.label.code = Code:
+patron.patronage.form.label.legal-stuff = LegalStuff:
+patron.patronage.form.label.budget = Budget:
+patron.patronage.form.label.initial = Initial:
+patron.patronage.form.label.creation = Creation:
+patron.patronage.form.label.end = End:
+patron.patronage.form.label.link = Link:
+patron.patronage.form.label.fullName = Inventor's fullName:
+patron.patronage.form.label.email = Inventor's email:
+patron.patronage.form.label.company = Inventor's company:
+patron.patronage.form.label.statement = Inventor's statement:
+patron.patronage.form.label.inventor.link = Inventor's link:
+
+patron.patronage.form.error.duplicated = The code is taken
+patron.patronage.form.error.non-accepted-currency = The currency must be in the list
+patron.patronage.form.error.negative-budget = The price must be positive
+patron.patronage.form.error.too-close-start-date = The start date must be at least one month older than the creation date
+patron.patronage.form.error.one-month = The end date must be at least one month older than the start date.
+patron.patronage.form.label.inventor = Select inventor
+
+patron.patronage.form.button.create = Create
+patron.patronage.form.button.update = Update
+patron.patronage.form.button.delete = Delete
+patron.patronage.form.button.publish = Publish
+
+patron.patronage.list.label.status = Status
+patron.patronage.list.label.code = Code
+patron.patronage.list.label.budget = Budget
+patron.patronage.list.label.creation = Creation
+
+patron.patronage.list.button.create = Create

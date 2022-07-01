@@ -1,0 +1,24 @@
+inventor.item.form.label.typeEntity = Tipo de Entidad
+inventor.item.form.label.name = Nombre:
+inventor.item.form.label.code = Código:
+inventor.item.form.label.technology = Tecnología:
+inventor.item.form.label.description = Descripción:
+inventor.item.form.label.retailPrice = RetailPrice
+inventor.item.form.label.link = Link:
+inventor.item.form.label.conversion = Cambio de moneda:
+
+inventor.item.form.error.duplicated = El código ya está elegido
+inventor.item.form.error.negative-retail-price = El precio debe de ser positivo
+inventor.item.form.error.non-accepted-currency = La moneda debe de ser igual a alguna de las aceptadas por el sistema
+
+inventor.item.form.button.create = Crear
+inventor.item.form.button.update = Actualizar
+inventor.item.form.button.delete = Borrar
+inventor.item.form.button.publish = Publicar
+ 
+inventor.item.list.label.typeEntity = Tipo de Entidad
+inventor.item.list.label.name = Nombre
+inventor.item.list.label.code = Código
+inventor.item.list.label.technology = Tecnología
+
+inventor.item.list.button.create = Crear

@@ -1,0 +1,7 @@
+patron.patronage-report.form.label.automatic-sequence-number = AutomaticSequenceNumber:
+patron.patronage-report.form.label.creation = Creation:
+patron.patronage-report.form.label.memorandum = Memorandum:
+patron.patronage-report.form.label.link = Link:
+
+patron.patronage-report.list.label.creation = Creation
+patron.patronage-report.list.label.patronage = Patronage

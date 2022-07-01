@@ -1,0 +1,7 @@
+recordIndex,title,body,criticalFlag,link,confirmation
+1,title,body,false,,true
+2,titulo,cuerpo,true,https://github.com,true
+3,este es un titulo que tiene exactamente 100 caracteres por lo que pasara la prueba del test positivo,cuerpo,true,https://github.com,true
+4,este es un titulo que tiene exactamente 100 caracteres por lo que pasara la prueba del test positivo,cuerpo,true,,true
+5,titulo,este es un titulo que tiene exactamente 255 caracteres por lo que pasara la prueba del test positivo este es un titulo que tiene exactamente 255 caracteres por lo que pasara la prueba del test positivo de manera analoga al anterior y a los anteriores,true,https://github.com,true
+6,titulo,este es un titulo que tiene exactamente 255 caracteres por lo que pasara la prueba del test positivo este es un titulo que tiene exactamente 255 caracteres por lo que pasara la prueba del test positivo de manera analoga al anterior y a los anteriores,true,,true

@@ -1,0 +1,22 @@
+inventor.patronage.form.label.status = Estado:
+inventor.patronage.form.label.code = Código:
+inventor.patronage.form.label.legal-stuff = Argumento legal:
+inventor.patronage.form.label.budget = Presupuesto:
+inventor.patronage.form.label.initial = Fecha de inicio:
+inventor.patronage.form.label.creation = Fecha de creación:
+inventor.patronage.form.label.end = Fecha de fin:
+inventor.patronage.form.label.link = Link:
+inventor.patronage.form.label.fullName = Nombre completo del patrón:
+inventor.patronage.form.label.email = E-mail del patrón:
+inventor.patronage.form.label.company = Compañía del patrón:
+inventor.patronage.form.label.statement = Estamento del patrón:
+inventor.patronage.form.label.patron-link = Link del patronage:
+
+inventor.patronage.form.button.update = Actualizar
+
+inventor.patronage.list.label.status = Estado
+inventor.patronage.list.label.code = Código
+inventor.patronage.list.label.budget = Presupuesto
+inventor.patronage.list.label.creation = Fecha de creación
+
+inventor.patronage-report.list.button.create = Crear reporte del patrocinio

@@ -1,0 +1,60 @@
+# master.menu #################################################################
+
+master.menu.home = Inicio
+master.menu.sign-up = Registrarse
+master.menu.sign-in = Entrar
+master.menu.sign-out = Salir
+
+# master.menu.anonymous #######################################################
+
+master.menu.anonymous = Anónimo
+
+master.menu.anonymous.user-account.list-all-user-accounts = Ver cuentas de usuario
+master.menu.anonymous.chirp.list-recent = Ver chirps recientes
+master.menu.anonymous.item.list = Ver objetos publicados
+master.menu.anonymous.toolkit.list = Ver kits de herramientas publicados
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Autentificado
+
+master.menu.authenticated.user-account.list-all-user-accounts = Ver cuentas de usuario
+master.menu.authenticated.chirp.list-recent = Ver chirps recientes
+master.menu.authenticated.item.list = Ver objetos publicados
+master.menu.authenticated.toolkit.list = Ver kits de herramientas publicados
+master.menu.authenticated.announcement.list-recent = Ver anuncios recientes
+master.menu.authenticated.system-configuration = Configuración del sistema
+
+# master.menu.administrator ###################################################
+
+master.menu.administrator = Administrador
+master.menu.administrator.shut-down = Parar el sistema
+master.menu.administrator.populate-initial = Poblar BD (inicial)
+master.menu.administrator.populate-sample = Poblar BD (ejemplos)
+master.menu.administrator.system-configuration = Ver configuracion del sistema
+master.menu.administrator.administrator-dashboard = Panel de indicadores
+çmaster.menu.administrator.announcement.list.button.create = Crear anuncio
+
+# master.menu.patron ##########################################################
+
+master.menu.patron = Patron
+master.menu.patron.my-patronage-reports = Mis reportes de los patrocinios
+master.menu.patron.my-patronages = Mis patrocinios
+master.menu.patron.patron-dashboard = Panel de indicadores
+
+# master.menu.inventor ##########################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.my-items = Mis objetos
+master.menu.inventor.my-patronage-reports = Mis reportes de los patrocinios
+master.menu.inventor.my-patronages = Mis patrocinios
+master.menu.inventor.toolkit.list-mine-toolkits = Mis kits de herramientas
+
+# master.menu.user-account ####################################################
+
+master.menu.user-account = Cuenta
+master.menu.user-account.general-data = Datos generales
+master.menu.user-account.become-patron = Hazte patrón
+master.menu.user-account.patron = Datos de patrón
+master.menu.user-account.become-inventor = Hazte inventor
+master.menu.user-account.inventor = Datos de inventor

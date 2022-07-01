@@ -1,0 +1,5 @@
+recordIndex,typeEntity,name,code,technology,description,retailPrice,link
+0,TOOL,bolt,DQW-732-I,SampleTechnology04,useful for building furniture,"USD 4.50",
+1,COMPONENT,electric drill,OLA-122,SampleTechnology05,this component is very peculiar,"GBP 50.50",
+2,TOOL,hammer,ASF-679-D,SampleTechnology01,a piece of metal with a flat end that is fixed onto the end of a long thin used for hitting things,"EUR 15.00",
+3,COMPONENT,tool box,YOU-235,SampleTechnology02,a bundle of tools,"GBP 45.65",

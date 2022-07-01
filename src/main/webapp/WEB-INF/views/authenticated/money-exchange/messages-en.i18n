@@ -1,0 +1,8 @@
+authenticated.money-exchange.form.label.source = Source money:
+authenticated.money-exchange.form.label.target-currency = Target currency:
+authenticated.money-exchange.form.label.date = Exchange date:
+authenticated.money-exchange.form.label.target = Target money:
+	
+authenticated.money-exchange.form.button.perform = Perform exchange
+
+authenticated.money-exchange.form.label.api-error = Sorry, couldn't perform the exchange

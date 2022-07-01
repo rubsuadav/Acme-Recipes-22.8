@@ -1,0 +1,8 @@
+administrator.announcement.form.label.creationMoment = Fecha de creación:
+administrator.announcement.form.label.title = Título:
+administrator.announcement.form.label.body =  Cuerpo:
+administrator.announcement.form.label.criticalFlag = ¿Es bandera crítica?:
+administrator.announcement.form.label.link = Link:
+
+administrator.announcement.form.label.confirmation = Confirmación
+administrator.announcement.form.button.create = Crear

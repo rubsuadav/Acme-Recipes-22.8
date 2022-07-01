@@ -1,0 +1,19 @@
+inventor.item.list.label.number = Numero de elementos
+inventor.item.list.label.item-type-entity = Tipo de entidad
+inventor.item.list.label.item-name = Nombre
+inventor.item.list.label.item-code = Codigo
+inventor.item.list.label.item-technology = Tecnologia
+inventor.item.list.label.item-retailPrice = Precio
+inventor.item.form.label.published = ¿Está el objeto publicado?
+
+inventor.item-toolkit.list.button.create = Asociar objetos a kits de herramientas
+
+inventor.item.form.label.number = Numero de elementos
+inventor.item.form.label.item = Objetos posibles
+
+inventor.quantity.form.button.update = Actualizar
+inventor.quantity.form.button.delete = Borrar
+inventor.item-toolkit.form.button.create = Asociar objetos a kits de herramientas
+
+inventor.quantity.form.error.toolkit-has-tool = Este kit de herramientas debe de tener 1 sola herramienta
+inventor.quantity.form.error.noItem = Debes de seleccionar al menos 1 item publicado

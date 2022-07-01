@@ -1,0 +1,6 @@
+patron.dashboard.form.title = Patron dashboard
+patron.dashboard.form.label.number-of-patronages-by-status = Patronages by status
+patron.dashboard.form.label.average-number-of-budgets-by-currency-and-status = Average price of a budget by currency and status
+patron.dashboard.form.label.deviation-of-budgets-by-currency-and-status = Deviation of the price of the budgets by currency and status
+patron.dashboard.form.label.min-budget-by-currency-and-status = Minimum price of a budget by currency and status
+patron.dashboard.form.label.max-budget-by-currency-and-status = Maximum price of a budget by currency and status

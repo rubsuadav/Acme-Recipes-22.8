@@ -1,0 +1,9 @@
+key,code,title,description,assembly-notes,link,published,key:inventor
+toolkit-01,RSD-999-J,furniture kit,This toolkit is used to build furniture,no assemble-notes to shown,null,false,inventor-01
+toolkit-02,JAC-000-R,PC kit,This toolkit is used to build PCs,you should follow the instructions to prepare it,http://www.example.org,true,inventor-02
+toolkit-03,NSM-162-A,another important kit,This toolkit is used to build furniture too,this is a secondary kit for building furniture,null,true,inventor-03
+toolkit-04,MRD-571-F,huge kit,This toolkit is used to build many objects,you should follow the instructions to prepare it,http://www.example.org,false,inventor-01
+toolkit-05,MRF-134-Q,small kit,This toolkit is a secondary kit. If you don't like you can't use,no assemble-notes to shown,null,false,inventor-02
+toolkit-06,JCD-091-P,PC kit 2,This toolkit is used to build gaming PCs,you should follow the instructions to prepare it,http://www.example.org,true,inventor-03
+toolkit-07,CVS-742-L,furniture kit 2,This toolkit is used to build big furniture,first you must take experience building a small furniture,null,false,inventor-01
+toolkit-08,NLD-473-C,car kit,This toolkit is used to build cars,you must follow the instructions to build it,http://www.example.org,true,inventor-02
