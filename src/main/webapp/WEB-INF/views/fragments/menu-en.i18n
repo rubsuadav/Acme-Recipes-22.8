@@ -1,13 +1,3 @@
-# menu-en.i18n
-#
-# Copyright (C) 2012-2022 Rafael Corchuelo.
-#
-# In keeping with the traditional purpose of furthering education and research, it is
-# the policy of the copyright owner to permit non-commercial use and redistribution of
-# this software. It has been tested carefully, but it is not guaranteed for any particular
-# purposes.  The copyright owner does not offer any warranties or representations, nor do
-# they accept any liabilities with respect to them.
-
 # master.menu #################################################################
 
 master.menu.home = Home
@@ -18,32 +8,53 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-master.menu.anonymous.favourite-link = Favourite link
+
+master.menu.anonymous.user-account.list-all-user-accounts = List User Accounts
+master.menu.anonymous.peep.list-recent = List recent peeps
+master.menu.anonymous.item.list = List published items
+master.menu.anonymous.toolkit.list = List published toolkits
+
+# master.menu.authenticated #######################################################
+
+master.menu.authenticated = Authenticated
+
+master.menu.authenticated.user-account.list-all-user-accounts = List User Accounts
+master.menu.authenticated.peep.list-recent = List recent peeps
+master.menu.authenticated.item.list = List published items
+master.menu.authenticated.toolkit.list = List published toolkits
+master.menu.authenticated.announcement.list-recent = List recent announcements
+master.menu.authenticated.system-configuration = System Configuration
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
-master.menu.administrator.dashboard = Dashboard
-master.menu.administrator.user-accounts = User accounts
+master.menu.administrator.shut-down = Shut down
 master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)
-master.menu.administrator.shut-down = Shut down
+master.menu.administrator.system-configuration = Show system configuration
+master.menu.administrator.administrator-dashboard = Dashboard
+master.menu.administrator.announcement.list.button.create = Create announcement
 
-# master.menu.provider ########################################################
+# master.menu.epicure ##########################################################
 
-master.menu.provider = Provider
-master.menu.provider.favourite-link = Favourite link
+master.menu.epicure = Epicure
+master.menu.epicure.my-patronage-reports = My patronage reports
+master.menu.epicure.my-patronages = My patronages
+master.menu.epicure.patron-dashboard = Dashboard
 
-# master.menu.consumer ##########################################################
+# master.menu.chef ##########################################################
 
-master.menu.consumer = Consumer
-master.menu.consumer.favourite-link = Favourite link
+master.menu.chef = Chef
+master.menu.chef.my-items = My items
+master.menu.chef.my-patronage-reports = My patronage reports
+master.menu.chef.my-patronages = My patronages
+master.menu.chef.toolkit.list-mine-toolkits = My toolkits
 
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Account
 master.menu.user-account.general-data = General data
-master.menu.user-account.provider = Provider data
-master.menu.user-account.become-provider = Become a provider
-master.menu.user-account.consumer = Consumer data
-master.menu.user-account.become-consumer = Become a consumer
+master.menu.user-account.become-epicure = Become an epicure
+master.menu.user-account.epicure = Epicure data
+master.menu.user-account.become-chef = Become a chef
+master.menu.user-account.chef = Chef data

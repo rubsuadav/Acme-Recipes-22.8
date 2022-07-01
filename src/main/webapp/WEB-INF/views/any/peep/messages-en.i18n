@@ -1,0 +1,16 @@
+any.peep.list.label.instantiation-moment = Instantiation Moment
+any.peep.list.label.heading = Heading
+any.peep.list.label.writer = Writer
+any.peep.list.label.piece-of-text = Piece of text
+any.peep.list.label.email = Email
+
+any.peep.list.button.create = Create
+
+any.peep.form.label.instantiation-moment = Instantiation Moment
+any.peep.form.label.heading = Heading
+any.peep.form.label.writer = Writer
+any.peep.form.label.piece-of-text = Piece of text
+any.peep.form.label.email = Email
+
+any.peep.form.label.confirmation = Confirm
+any.peep.form.button.create = Create
