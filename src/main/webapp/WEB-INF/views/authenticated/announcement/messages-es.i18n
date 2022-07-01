@@ -1,8 +1,0 @@
-authenticated.announcemeent.form.label.creationMoment = Fecha de creación:
-authenticated.announcemeent.form.label.title = Título:
-authenticated.announcemeent.form.label.body =  Cuerpo:
-authenticated.announcemeent.form.label.criticalFlag = ¿Es bandera crítica?:
-authenticated.announcemeent.form.label.link = Link:
-
-authenticated.announcement.list.label.creationMoment = Fecha de creación
-authenticated.announcement.list.label.title = Título

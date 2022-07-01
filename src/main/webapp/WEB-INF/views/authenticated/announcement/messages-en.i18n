@@ -1,8 +1,0 @@
-authenticated.announcemeent.form.label.creationMoment = Creation Moment:
-authenticated.announcemeent.form.label.title = Title:
-authenticated.announcemeent.form.label.body =  Body:
-authenticated.announcemeent.form.label.criticalFlag = Is Critical Flag?:
-authenticated.announcemeent.form.label.link = Link:
-
-authenticated.announcement.list.label.creationMoment = Creation Moment
-authenticated.announcement.list.label.title = Title

@@ -1,7 +1,0 @@
-recordIndex,typeEntity,name,code,technology,description,retailPrice,link
-0,TOOL,bolt,DQW-732-I,SampleTechnology04,useful for building furniture,"USD 4.50",
-1,COMPONENT,coping saw,ABF-871,SampleTechnology03,useful for cutting wood,"USD 20.35",
-2,TOOL,diagonal pliers,DRT-061-W,SampleTechnology05,useful for constructions,"EUR 8.55",
-3,TOOL,hammer,ASF-679-D,SampleTechnology01,a piece of metal with a flat end that is fixed onto the end of a long thin used for hitting things,"EUR 15.00",
-4,TOOL,mallet,GHY-421-A,SampleTechnology02,like a hammer,"GBP 15.00",
-5,COMPONENT,screwdriver's set,QHE-136,SampleTechnology01,a handle joined to a metal rod shaped at one end to fit in the cut in the top of the screw,"EUR 20.30",https://www.deubaxxl.es/destornilladores-set-de-12-de-cruz-y-lineales.-3248

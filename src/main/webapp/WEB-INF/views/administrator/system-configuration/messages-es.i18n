@@ -1,7 +1,0 @@
-administrator.systemconfiguration.form.label.accepted-currencies = Monedas aceptadas:
-administrator.systemconfiguration.form.label.system-currency = Sistema de monedas:
-administrator.systemconfiguration.form.label.strong-spam-words = Palabras fuertes de spam:
-administrator.systemconfiguration.form.label.strong-spam-threshold = Limite de palabras fuertes:
-administrator.systemconfiguration.form.label.weak-spam-words = Palabras debiles de spam:
-administrator.systemconfiguration.form.label.weak-spam-threshold = Limite de palabras debiles:
-administrator.systemconfiguration.form.label.button= Actualizar

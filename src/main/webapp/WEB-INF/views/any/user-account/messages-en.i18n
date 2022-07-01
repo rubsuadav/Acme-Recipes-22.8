@@ -1,7 +1,0 @@
-any.user-account.form.label.name = Name:
-any.user-account.form.label.surname = Surname:
-any.user-account.form.label.email = Email:
- 
-any.user-account.list.label.role-list = Roles
-any.user-account.list.label.identity.name = Name
-any.user-account.list.label.identity.surname = Surname

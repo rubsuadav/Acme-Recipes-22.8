@@ -1,9 +1,0 @@
-authenticated.inventor.inventor.form.label.company = Company
-authenticated.inventor.inventor.form.label.statement = Statement
-authenticated.inventor.inventor.form.label.link = Link
-
-authenticated.inventor.inventor.form.button.create = Register
-authenticated.inventor.inventor.form.button.update = Update
-
-authenticated.inventor.form.error.company = The company must be less than 101 characters.
-authenticated.inventor.form.error.statement = The statement must be less than 256 characters.
