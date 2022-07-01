@@ -1,0 +1,17 @@
+key,number,key:recipe,key:item
+quantity-01,1,recipe-01,item-01
+quantity-02,13,recipe-01,item-06
+quantity-03,1,recipe-02,item-07
+quantity-04,60,recipe-02,item-02
+quantity-05,1,recipe-03,item-09
+quantity-06,1,recipe-03,item-02
+quantity-07,1,recipe-05,item-03
+quantity-08,30,recipe-05,item-02
+quantity-09,67,recipe-04,item-06
+quantity-10,1,recipe-04,item-07
+quantity-11,55,recipe-07,item-02
+quantity-12,1,recipe-07,item-01
+quantity-13,1,recipe-06,item-07
+quantity-14,7,recipe-06,item-06
+quantity-15,1,recipe-08,item-03
+quantity-16,1,recipe-08,item-09

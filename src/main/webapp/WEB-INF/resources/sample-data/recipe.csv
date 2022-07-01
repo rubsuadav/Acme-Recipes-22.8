@@ -1,0 +1,9 @@
+key,code,heading,description,preparation-notes,link,published,key:chef
+recipe-01,AA:RSD-999,furniture kit,This recipe is used to build furniture,no assemble-notes to shown,null,false,chef-01
+recipe-02,BB:JAC-000,PC kit,This recipe is used to build PCs,you should follow the instructions to prepare it,http://www.example.org,true,chef-02
+recipe-03,NSM-162,another important kit,This recipe is used to build furniture too,this is a secondary kit for building furniture,null,true,chef-03
+recipe-04,CC:MRD-571,huge kit,This recipe is used to build many objects,you should follow the instructions to prepare it,http://www.example.org,false,chef-01
+recipe-05,MRF-134,small kit,This recipe is a secondary kit. If you don't like you can't use,no assemble-notes to shown,null,false,chef-02
+recipe-06,DD:JCD-091,PC kit 2,This recipe is used to build gaming PCs,you should follow the instructions to prepare it,http://www.example.org,true,chef-03
+recipe-07,CVS-742,furniture kit 2,This recipe is used to build big furniture,first you must take experience building a small furniture,null,false,chef-01
+recipe-08,EE:NLD-473,car kit,This recipe is used to build cars,you must follow the instructions to build it,http://www.example.org,true,chef-02

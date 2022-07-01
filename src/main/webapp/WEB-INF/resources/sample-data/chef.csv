@@ -1,0 +1,5 @@
+key,organisation,assertion,link,key:user-account
+chef-01,Jaztel,Good skills at back-end,null,user-account-chef-01
+chef-02,Yoigo,Good skills at front-end,null,user-account-chef-02
+chef-03,Movistar, Good skills at displaying data and front-end,https://www.movistar.es,user-account-chef-03
+chef-04, Telefonica, Good slikks,null,user-account-administrator-01
