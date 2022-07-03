@@ -7,6 +7,7 @@
 	<acme:input-textbox code="chef.fine-dish.form.label.code" path="code" readonly="true"/>	
 	<acme:input-textarea code="chef.fine-dish.form.label.request" path="request" readonly="true"/>
 	<acme:input-money code="chef.fine-dish.form.label.budget" path="budget" readonly="true"/>
+	<acme:input-money code="chef.item.form.label.conversion" path="conversion" readonly="true"/>
 	<acme:input-moment code="chef.fine-dish.form.label.initial" path="initial" readonly="true"/>
 	<acme:input-moment code="chef.fine-dish.form.label.creation" path="creation" readonly="true"/>
 	<acme:input-moment code="chef.fine-dish.form.label.end" path="end" readonly="true"/>
