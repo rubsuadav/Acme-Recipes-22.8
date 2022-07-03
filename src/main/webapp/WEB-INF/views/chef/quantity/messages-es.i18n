@@ -1,0 +1,18 @@
+chef.item.list.label.number = Numero de elementos
+chef.item.list.label.item-type-entity = Tipo de entidad
+chef.item.list.label.item-name = Nombre
+chef.item.list.label.item-code = Codigo
+chef.item.list.label.item-retailPrice = Precio
+chef.item.form.label.published = ¿Está el objeto publicado?
+
+chef.item-recipe.list.button.create = Asociar objetos a recetas
+
+chef.item.form.label.number = Numero de elementos
+chef.item.form.label.item = Objetos posibles
+
+chef.quantity.form.button.update = Actualizar
+chef.quantity.form.button.delete = Borrar
+chef.item-recipe.form.button.create = Asociar objetos a recetas
+
+chef.quantity.form.error.recipe-has-recipe = Esta receta debe de tener 1 solo ingrediente
+chef.quantity.form.error.noItem = Debes de seleccionar al menos 1 item publicado

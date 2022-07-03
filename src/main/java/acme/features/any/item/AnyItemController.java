@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 import acme.entities.items.Item;
+import acme.features.any.recipe.AnyRecipeItemListMineService;
 import acme.framework.controllers.AbstractController;
 import acme.framework.roles.Any;
 
@@ -20,8 +21,8 @@ public class AnyItemController extends AbstractController<Any, Item> {
 	@Autowired
 	protected AnyItemShowService			showService;
 	
-//	@Autowired
-//	protected AnyToolkitItemListMineService		anyToolkitItemListMineService;
+	@Autowired
+	protected AnyRecipeItemListMineService		anyRecipeItemListMineService;
 
 	// Constructors -----------------------------------------------------------
 
@@ -31,9 +32,9 @@ public class AnyItemController extends AbstractController<Any, Item> {
 		super.addCommand("show", this.showService);
 		super.addCommand("list", this.itemListAllService);
 
-		//ENDPOINT PARA ACCEDER A LA LISTA DE SUS ITEMS DESDE SU TOOLKIT
+		//ENDPOINT PARA ACCEDER A LA LISTA DE SUS ITEMS DESDE SU RECETAS
 
-//		super.addCommand("list-toolkit-items", "list", this.anyToolkitItemListMineService);
+		super.addCommand("list-recipe-items", "list", this.anyRecipeItemListMineService);
 	}
 
 }

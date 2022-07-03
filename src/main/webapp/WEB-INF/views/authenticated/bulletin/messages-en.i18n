@@ -1,0 +1,8 @@
+authenticated.bulletin.form.label.instantiationMoment = Instantiation Moment:
+authenticated.bulletin.form.label.heading = Heading:
+authenticated.bulletin.form.label.pieceOfText = Piece Of Text:
+authenticated.bulletin.form.label.criticalFlag = Is Critical Flag?:
+authenticated.bulletin.form.label.link = Link:
+
+authenticated.bulletin.list.label.instantiationMoment = Instantiation Moment
+authenticated.bulletin.list.label.heading = Heading

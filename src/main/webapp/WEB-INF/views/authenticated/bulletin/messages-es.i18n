@@ -1,0 +1,8 @@
+authenticated.bulletin.form.label.instantiationMoment = Fecha de instaciación:
+authenticated.bulletin.form.label.heading = Cabecera:
+authenticated.bulletin.form.label.pieceOfText =  Pieza de texto:
+authenticated.bulletin.form.label.criticalFlag = ¿Es bandera crítica?:
+authenticated.bulletin.form.label.link = Link:
+
+authenticated.bulletin.list.label.instantiationMoment = Fecha de instaciación
+authenticated.bulletin.list.label.heading = Título

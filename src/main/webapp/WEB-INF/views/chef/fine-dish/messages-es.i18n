@@ -1,0 +1,22 @@
+chef.fine-dish.form.label.status = Estado:
+chef.fine-dish.form.label.code = Código:
+chef.fine-dish.form.label.request = Peticion:
+chef.fine-dish.form.label.budget = Presupuesto:
+chef.fine-dish.form.label.initial = Fecha de inicio:
+chef.fine-dish.form.label.creation = Fecha de creación:
+chef.fine-dish.form.label.end = Fecha de fin:
+chef.fine-dish.form.label.link = Link:
+chef.fine-dish.form.label.fullName = Nombre completo del epicure:
+chef.fine-dish.form.label.email = E-mail del epicure:
+chef.fine-dish.form.label.company = Compañía del epicure:
+chef.fine-dish.form.label.statement = Estamento del epicure:
+chef.fine-dish.form.label.epicure-link = Link del epicure:
+
+chef.fine-dish.form.button.update = Actualizar
+
+chef.fine-dish.list.label.status = Estado
+chef.fine-dish.list.label.code = Código
+chef.fine-dish.list.label.budget = Presupuesto
+chef.fine-dish.list.label.creation = Fecha de creación
+
+chef.fine-dish-report.list.button.create = Crear memoria

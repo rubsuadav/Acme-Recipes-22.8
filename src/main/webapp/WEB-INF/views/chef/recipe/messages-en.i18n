@@ -1,0 +1,22 @@
+chef.recipe.form.label.code = Code:
+chef.recipe.form.label.heading = Heading:
+chef.recipe.form.label.description = Description:
+chef.recipe.form.label.preparationNotes = Preparation Notes:
+chef.recipe.form.label.link = Link:
+chef.recipe.form.label.recipePrice = Price of recipe:
+chef.recipe.form.label.published = Is published?:
+
+chef.recipe.form.button.items = Items
+
+chef.recipe.form.error.no-items-published = The recipe must be have at least 1 item published to be published
+chef.recipe.form.error.no-items = The recipe need to have items published (minimun 1)
+
+chef.recipe.form.button.update = Update
+chef.recipe.form.button.delete = Delete
+chef.recipe.form.button.publish = Publish
+
+chef.recipe.list.label.code = Code
+chef.recipe.list.label.heading = Heading
+chef.recipe.list.label.published = Is published?
+
+chef.recipe.list.button.create = Create

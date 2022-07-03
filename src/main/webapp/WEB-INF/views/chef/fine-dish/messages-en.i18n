@@ -1,0 +1,22 @@
+chef.fine-dish.form.label.status = Status:
+chef.fine-dish.form.label.code = Code:
+chef.fine-dish.form.label.request = Request:
+chef.fine-dish.form.label.budget = Budget:
+chef.fine-dish.form.label.initial = Initial:
+chef.fine-dish.form.label.creation = Creation:
+chef.fine-dish.form.label.end = End:
+chef.fine-dish.form.label.link = Link:
+chef.fine-dish.form.label.fullName = Epicure's fullName:
+chef.fine-dish.form.label.email = Epicure's email:
+chef.fine-dish.form.label.company = Epicure's company:
+chef.fine-dish.form.label.statement = Epicure's statement:
+chef.fine-dish.form.label.epicure-link = Epicure's link:
+
+chef.fine-dish.form.button.update = Update
+
+chef.fine-dish.list.label.status = Status
+chef.fine-dish.list.label.code = Code
+chef.fine-dish.list.label.budget = Budget
+chef.fine-dish.list.label.creation = Creation
+
+chef.fine-dish-report.list.button.create = Create memorandum

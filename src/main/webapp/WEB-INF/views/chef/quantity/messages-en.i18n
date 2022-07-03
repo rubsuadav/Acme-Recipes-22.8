@@ -1,0 +1,18 @@
+chef.item.list.label.number = Number of elements
+chef.item.list.label.item-type-entity = Type Entity
+chef.item.list.label.item-name = Name
+chef.item.list.label.item-code = Code
+chef.item.list.label.item-retailPrice = Retail Price
+chef.item.form.label.published = Is the item publish?
+
+chef.item-recipe.list.button.create = Associate items to the recipe
+
+chef.item.form.label.number = Number of elements
+chef.item.form.label.item = Possible items
+
+chef.quantity.form.button.update = Update
+chef.quantity.form.button.delete = Delete
+chef.item-recipe.form.button.create = Associate items to the recipe
+
+chef.quantity.form.error.recipe-has-ingredient = This recipe must have 1 ingredient
+chef.quantity.form.error.noItem = You must be select at least one item published

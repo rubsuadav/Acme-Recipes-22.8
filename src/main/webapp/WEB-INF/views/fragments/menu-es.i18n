@@ -12,7 +12,7 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.user-account.list-all-user-accounts = Ver cuentas de usuario
 master.menu.anonymous.peep.list-recent = Ver peeps recientes
 master.menu.anonymous.item.list = Ver objetos publicados
-master.menu.anonymous.toolkit.list = Ver kits de herramientas publicados
+master.menu.anonymous.recipe.list = Ver recetas publicadas
 
 # master.menu.authenticated #######################################################
 
@@ -21,8 +21,8 @@ master.menu.authenticated = Autentificado
 master.menu.authenticated.user-account.list-all-user-accounts = Ver cuentas de usuario
 master.menu.authenticated.peep.list-recent = Ver peeps recientes
 master.menu.authenticated.item.list = Ver objetos publicados
-master.menu.authenticated.toolkit.list = Ver kits de herramientas publicados
-master.menu.authenticated.announcement.list-recent = Ver anuncios recientes
+master.menu.authenticated.recipe.list = Ver recetas publicadas
+master.menu.authenticated.bulletin.list-recent = Ver boletines recientes
 master.menu.authenticated.system-configuration = Configuración del sistema
 
 # master.menu.administrator ###################################################
@@ -37,18 +37,18 @@ master.menu.administrator.administrator-dashboard = Panel de indicadores
 
 # master.menu.epicure ##########################################################
 
-master.menu.epicure = Patron
+master.menu.epicure = Epicure
 master.menu.epicure.my-patronage-reports = Mis reportes de los patrocinios
 master.menu.epicure.my-patronages = Mis patrocinios
 master.menu.epicure.patron-dashboard = Panel de indicadores
 
 # master.menu.chef ##########################################################
 
-master.menu.chef = Inventor
+master.menu.chef = Cocinero
 master.menu.chef.my-items = Mis objetos
 master.menu.chef.my-patronage-reports = Mis reportes de los patrocinios
-master.menu.chef.my-patronages = Mis patrocinios
-master.menu.chef.toolkit.list-mine-toolkits = Mis kits de herramientas
+master.menu.chef.my-fine-dishes = Mis buenos platos
+master.menu.chef.recipe.list-mine-recipes = Mis recetas
 
 # master.menu.user-account ####################################################
 
@@ -56,5 +56,5 @@ master.menu.user-account = Cuenta
 master.menu.user-account.general-data = Datos generales
 master.menu.user-account.become-epicure = Hazte epicure
 master.menu.user-account.epicure = Datos del epicure
-master.menu.user-account.become-chef = Hazte chef
-master.menu.user-account.chef = Datos del chef
+master.menu.user-account.become-chef = Hazte cocinero
+master.menu.user-account.chef = Datos del cocinero

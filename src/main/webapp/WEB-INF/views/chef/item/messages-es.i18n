@@ -1,0 +1,23 @@
+chef.item.form.label.typeEntity = Tipo de Entidad
+chef.item.form.label.name = Nombre:
+chef.item.form.label.code = Código:
+chef.item.form.label.description = Descripción:
+chef.item.form.label.retailPrice = Precio:
+chef.item.form.label.link = Link:
+chef.item.form.label.conversion = Cambio de moneda:
+
+chef.item.form.error.duplicated = El código ya está elegido
+chef.item.form.error.negative-retail-price = El precio debe de ser positivo
+chef.item.form.error.non-accepted-currency = La moneda debe de ser igual a alguna de las aceptadas por el sistema
+
+chef.item.form.button.create = Crear
+chef.item.form.button.update = Actualizar
+chef.item.form.button.delete = Borrar
+chef.item.form.button.publish = Publicar
+ 
+chef.item.list.label.typeEntity = Tipo de Entidad
+chef.item.list.label.name = Nombre
+chef.item.list.label.code = Código
+chef.item.list.label.retailPrice = Precio
+
+chef.item.list.button.create = Crear

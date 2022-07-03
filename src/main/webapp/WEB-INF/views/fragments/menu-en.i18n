@@ -12,7 +12,7 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.user-account.list-all-user-accounts = List User Accounts
 master.menu.anonymous.peep.list-recent = List recent peeps
 master.menu.anonymous.item.list = List published items
-master.menu.anonymous.toolkit.list = List published toolkits
+master.menu.anonymous.recipe.list = List published recipes
 
 # master.menu.authenticated #######################################################
 
@@ -21,8 +21,8 @@ master.menu.authenticated = Authenticated
 master.menu.authenticated.user-account.list-all-user-accounts = List User Accounts
 master.menu.authenticated.peep.list-recent = List recent peeps
 master.menu.authenticated.item.list = List published items
-master.menu.authenticated.toolkit.list = List published toolkits
-master.menu.authenticated.announcement.list-recent = List recent announcements
+master.menu.authenticated.recipe.list = List published recipes
+master.menu.authenticated.bulletin.list-recent = List recent bulletins
 master.menu.authenticated.system-configuration = System Configuration
 
 # master.menu.administrator ###################################################
@@ -47,8 +47,8 @@ master.menu.epicure.patron-dashboard = Dashboard
 master.menu.chef = Chef
 master.menu.chef.my-items = My items
 master.menu.chef.my-patronage-reports = My patronage reports
-master.menu.chef.my-patronages = My patronages
-master.menu.chef.toolkit.list-mine-toolkits = My toolkits
+master.menu.chef.my-fine-dishes = My fine dishes
+master.menu.chef.recipe.list-mine-recipes = My recipes
 
 # master.menu.user-account ####################################################
 

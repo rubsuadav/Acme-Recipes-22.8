@@ -12,6 +12,7 @@
       		<acme:menu-suboption code="master.menu.anonymous.user-account.list-all-user-accounts" action="/any/user-account/list-all-user-accounts"/>
       		<acme:menu-suboption code="master.menu.anonymous.peep.list-recent" action="/any/peep/list-recent"/>
       		<acme:menu-suboption code="master.menu.anonymous.item.list" action="/any/item/list"/>
+      		<acme:menu-suboption code="master.menu.anonymous.recipe.list" action="/any/recipe/list"/>
 
 		</acme:menu-option>
 		
@@ -19,6 +20,10 @@
 			<acme:menu-suboption code="master.menu.authenticated.user-account.list-all-user-accounts" action="/any/user-account/list-all-user-accounts"/>
 			<acme:menu-suboption code="master.menu.authenticated.peep.list-recent" action="/any/peep/list-recent"/>
 			<acme:menu-suboption code="master.menu.authenticated.item.list" action="/any/item/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.recipe.list" action="/any/recipe/list"/>
+			<acme:menu-separator/>
+			<acme:menu-suboption code="master.menu.authenticated.bulletin.list-recent" action="/authenticated/bulletin/list-recent"/>
+			<acme:menu-suboption code="master.menu.authenticated.system-configuration" action="/authenticated/system-configuration/show"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -32,6 +37,9 @@
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.chef" access="hasRole('Chef')">
+			<acme:menu-suboption code="master.menu.chef.my-items" action="/chef/item/list-mine-items"/>
+			<acme:menu-suboption code="master.menu.chef.recipe.list-mine-recipes" action="/chef/recipe/list-mine-recipes"/>
+			<acme:menu-suboption code="master.menu.chef.my-fine-dishes" action="/chef/fine-dish/list-mine"/>
 		</acme:menu-option>
 		
 	</acme:menu-left>

@@ -1,0 +1,12 @@
+any.recipe.form.label.code = Code:
+any.recipe.form.label.heading = Heading:
+any.recipe.form.label.description = Description:
+any.recipe.form.label.preparationNotes = PreparationNotes:
+any.recipe.form.label.link = Link:
+any.recipe.form.label.published = Is Published?:
+any.recipe.form.label.recipePrice = Price of the recipe:
+
+any.recipe.form.button.items = Items
+
+any.recipe.list.label.code = Code
+any.recipe.list.label.heading = Heading

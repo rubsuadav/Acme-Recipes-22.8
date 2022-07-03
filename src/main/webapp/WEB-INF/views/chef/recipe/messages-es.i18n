@@ -1,0 +1,22 @@
+chef.recipe.form.label.code = Código:
+chef.recipe.form.label.heading = Cebecera:
+chef.recipe.form.label.description = Descripción:
+chef.recipe.form.label.preparationNotes = Notas de preparación:
+chef.recipe.form.label.link = Link:
+chef.recipe.form.label.recipePrice = Precio de la receta:
+chef.recipe.form.label.published = ¿Está publicada?:
+
+chef.recipe.form.button.items = Objetos
+
+chef.recipe.form.error.no-items-published =  La receta debe de tener al menos 1 objeto publicado para poder ser publicada
+chef.recipe.form.error.no-items = No hay items publicados asignados, necesita minimo 1
+
+chef.recipe.form.button.update = Actualizar
+chef.recipe.form.button.delete = Borrar
+chef.recipe.form.button.publish = Publicar
+
+chef.recipe.list.label.code = Código
+chef.recipe.list.label.heading = Cebecera
+chef.recipe.list.label.published = ¿Está publicado?
+
+chef.recipe.list.button.create = Crear
