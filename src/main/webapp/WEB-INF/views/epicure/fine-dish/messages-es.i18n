@@ -1,0 +1,30 @@
+epicure.fine-dish.form.label.status = Estado:
+epicure.fine-dish.form.label.code = Código:
+epicure.fine-dish.form.label.request = Peticion:
+epicure.fine-dish.form.label.budget = Presupuesto:
+epicure.fine-dish.form.label.initial = Fecha de inicio:
+epicure.fine-dish.form.label.creation = Fecha de creación:
+epicure.fine-dish.form.label.end = Fecha de fin:
+epicure.fine-dish.form.label.link = Link:
+epicure.fine-dish.form.label.company = Compañía del inventor:
+epicure.fine-dish.form.label.statement = Estamento del inventor:
+epicure.fine-dish.form.label.chef.link = Link del inventor:
+
+epicure.fine-dish.form.error.duplicated = El código ya está elegido
+epicure.fine-dish.form.error.non-accepted-currency = La divisa debe de estar en el listado
+epicure.fine-dish.form.error.negative-budget = El precio debe de ser positivo
+epicure.fine-dish.form.error.too-close-start-date = La fecha de inicio debe de ser al menos un mes mayor que la de creación.
+epicure.fine-dish.form.error.one-month = La fecha de fin debe de ser al menos un mes mayor que la de inicio.
+epicure.fine-dish.form.label.chef = Selecciona cocinero
+
+epicure.fine-dish.form.button.create = Crear
+epicure.fine-dish.form.button.update = Actualizar
+epicure.fine-dish.form.button.delete = Borrar
+epicure.fine-dish.form.button.publish = Publicar
+
+epicure.fine-dish.list.label.status = Estado
+epicure.fine-dish.list.label.code = Código
+epicure.fine-dish.list.label.budget = Presupuesto
+epicure.fine-dish.list.label.creation = Fecha de creación
+
+epicure.fine-dish.list.button.create = Crear

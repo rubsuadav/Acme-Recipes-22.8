@@ -33,7 +33,10 @@
 			<acme:menu-suboption code="master.menu.administrator.shut-down" action="/administrator/shut-down"/>
 		</acme:menu-option>
 
-		<acme:menu-option code="master.menu.epicure" access="hasRole('Epicure')">	
+		<acme:menu-option code="master.menu.epicure" access="hasRole('Epicure')">
+			<acme:menu-suboption code="master.menu.epicure.my-fine-dishes" action="/epicure/fine-dish/list-mine"/>
+			<acme:menu-suboption code="master.menu.epicure.my-memorandums" action="/epicure/memorandum/list-mine"/>	
+			<acme:menu-suboption code="master.menu.epicure.epicure-dashboard" action="/epicure/epicure-dashboard/show"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.chef" access="hasRole('Chef')">

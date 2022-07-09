@@ -1,0 +1,30 @@
+epicure.fine-dish.form.label.status = Status:
+epicure.fine-dish.form.label.code = Code:
+epicure.fine-dish.form.label.request = Request:
+epicure.fine-dish.form.label.budget = Budget:
+epicure.fine-dish.form.label.initial = Initial:
+epicure.fine-dish.form.label.creation = Creation:
+epicure.fine-dish.form.label.end = End:
+epicure.fine-dish.form.label.link = Link:
+epicure.fine-dish.form.label.company = Inventor's company:
+epicure.fine-dish.form.label.statement = Inventor's statement:
+epicure.fine-dish.form.label.chef.link = Inventor's link:
+
+epicure.fine-dish.form.error.duplicated = The code is taken
+epicure.fine-dish.form.error.non-accepted-currency = The currency must be in the list
+epicure.fine-dish.form.error.negative-budget = The price must be positive
+epicure.fine-dish.form.error.too-close-start-date = The start date must be at least one month older than the creation date
+epicure.fine-dish.form.error.one-month = The end date must be at least one month older than the start date.
+epicure.fine-dish.form.label.chef = Select chef
+
+epicure.fine-dish.form.button.create = Create
+epicure.fine-dish.form.button.update = Update
+epicure.fine-dish.form.button.delete = Delete
+epicure.fine-dish.form.button.publish = Publish
+
+epicure.fine-dish.list.label.status = Status
+epicure.fine-dish.list.label.code = Code
+epicure.fine-dish.list.label.budget = Budget
+epicure.fine-dish.list.label.creation = Creation
+
+epicure.fine-dish.list.button.create = Create

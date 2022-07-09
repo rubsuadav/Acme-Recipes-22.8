@@ -38,7 +38,7 @@ master.menu.administrator.announcement.list.button.create = Create announcement
 # master.menu.epicure ##########################################################
 
 master.menu.epicure = Epicure
-master.menu.epicure.my-memorandums = My patronage reports
+master.menu.epicure.my-memorandums = My memorandums
 master.menu.epicure.my-fine-dishes = My fine dishes
 master.menu.epicure.epicure-dashboard = Dashboard
 
