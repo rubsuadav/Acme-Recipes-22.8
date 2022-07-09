@@ -38,15 +38,15 @@ master.menu.administrator.announcement.list.button.create = Create announcement
 # master.menu.epicure ##########################################################
 
 master.menu.epicure = Epicure
-master.menu.epicure.my-patronage-reports = My patronage reports
-master.menu.epicure.my-patronages = My patronages
-master.menu.epicure.patron-dashboard = Dashboard
+master.menu.epicure.my-memorandums = My patronage reports
+master.menu.epicure.my-fine-dishes = My fine dishes
+master.menu.epicure.epicure-dashboard = Dashboard
 
 # master.menu.chef ##########################################################
 
 master.menu.chef = Chef
 master.menu.chef.my-items = My items
-master.menu.chef.my-patronage-reports = My patronage reports
+master.menu.chef.my-memorandums = My memorandums
 master.menu.chef.my-fine-dishes = My fine dishes
 master.menu.chef.recipe.list-mine-recipes = My recipes
 

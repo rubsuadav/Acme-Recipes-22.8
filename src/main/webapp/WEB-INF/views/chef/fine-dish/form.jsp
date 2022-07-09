@@ -31,5 +31,5 @@
 	</jstl:if>
 	
 	<acme:submit test="${acme:anyOf(command, 'show, update') && status == 'PROPOSED'}" code="chef.fine-dish.form.button.update" action="/chef/fine-dish/update"/>
-    <acme:button test="${status == 'ACCEPTED' && published == true}" code="chef.fine-dish-report.list.button.create" action="/chef/memorandum/create?fine-dishId=${id}"/>
+    <acme:button test="${(status == 'ACCEPTED' || status == 'DENIED') && published == true}" code="chef.fine-dish-report.list.button.create" action="/chef/memorandum/create?fine-dishId=${id}"/>
 </acme:form>

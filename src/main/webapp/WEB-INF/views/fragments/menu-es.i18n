@@ -38,15 +38,15 @@ master.menu.administrator.administrator-dashboard = Panel de indicadores
 # master.menu.epicure ##########################################################
 
 master.menu.epicure = Epicure
-master.menu.epicure.my-patronage-reports = Mis reportes de los patrocinios
-master.menu.epicure.my-patronages = Mis patrocinios
-master.menu.epicure.patron-dashboard = Panel de indicadores
+master.menu.epicure.my-memorandums = Mis memorias
+master.menu.epicure.my-fine-dishes = Mis buenos platos
+master.menu.epicure.epicure-dashboard = Panel de indicadores
 
 # master.menu.chef ##########################################################
 
 master.menu.chef = Cocinero
 master.menu.chef.my-items = Mis objetos
-master.menu.chef.my-patronage-reports = Mis reportes de los patrocinios
+master.menu.chef.my-memorandums = Mis memorias
 master.menu.chef.my-fine-dishes = Mis buenos platos
 master.menu.chef.recipe.list-mine-recipes = Mis recetas
 

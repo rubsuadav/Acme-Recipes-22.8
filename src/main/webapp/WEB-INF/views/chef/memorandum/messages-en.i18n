@@ -1,0 +1,10 @@
+chef.memorandum.form.label.automatic-sequence-number = AutomaticSequenceNumber:
+chef.memorandum.form.label.instantiation-moment = Instantiation moment:
+chef.memorandum.form.label.report = Report:
+chef.memorandum.form.label.link = Link:
+
+chef.memorandum.form.label.confirmation =  Confirmation
+chef.memorandum.form.button.create= Create
+
+chef.memorandum.list.label.instantiation-moment = Instantiation moment
+chef.memorandum.list.label.fine-dish = Fine Dish
