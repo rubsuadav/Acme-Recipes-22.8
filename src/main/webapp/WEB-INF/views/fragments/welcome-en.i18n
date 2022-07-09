@@ -1,3 +1,4 @@
+
 # welcome-en.i18n
 #
 # Copyright (C) 2012-2022 Rafael Corchuelo.
@@ -10,5 +11,4 @@
 
 master.welcome.title = Welcome!
 master.welcome.text = \
-	Hello World! Never before has it bee easier to get your \
-	project up and running!
+	This is Acme Recipes project where chefs can advertise their ingredients, kitchen utensils, and recipes and epicures can request fine dishes from them.

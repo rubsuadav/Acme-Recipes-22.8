@@ -10,6 +10,5 @@
 
 master.welcome.title = ¡Bienvenidos!
 master.welcome.text = \
-	¡Hola mundo!  Nunca antes ha sido tan sencillo desarrollar un \
-	proyecto y hacerlo funcionar.
+	Este es el proyecto Acme Recipes donde los chefs pueden anunciar sus ingredientes, utensilios de cocina y recetas, y los epicures pueden solicitarles platos finos.
 ﻿
