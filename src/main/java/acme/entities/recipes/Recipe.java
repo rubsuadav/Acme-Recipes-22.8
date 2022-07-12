@@ -27,6 +27,7 @@ public class Recipe extends AbstractEntity{
 	
 	@Pattern(regexp = "^([A-Z]{2}:)?[A-Z]{3}-[0-9]{3}$")
 	@Column(unique = true)
+	@NotBlank
 	protected String code;
 	
 	@NotBlank
