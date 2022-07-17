@@ -12,6 +12,7 @@
 	<acme:input-textbox code="any.item.form.label.code" path="code"/>
 	<acme:input-textarea code="any.item.form.label.description" path="description"/>
 	<acme:input-money code="any.item.form.label.retailPrice" path="retailPrice"/>
+	<acme:input-money code="any.item.form.label.conversion" path="conversion"/>
 	<acme:input-url code="any.item.form.label.link" path="link"/>
 	
 </acme:form>

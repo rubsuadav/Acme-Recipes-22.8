@@ -2,7 +2,8 @@ any.item.form.label.typeEntity = TypeEntity:
 any.item.form.label.name = Name:
 any.item.form.label.code = Code:
 any.item.form.label.description = Description:
-any.item.form.label.retailPrice = RetailPrice
+any.item.form.label.retailPrice = RetailPrice:
+any.item.form.label.conversion = Conversion:
 any.item.form.label.link = Link:
  
 any.item.list.label.typeEntity = TypeEntity

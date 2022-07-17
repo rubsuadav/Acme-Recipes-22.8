@@ -1,21 +1,18 @@
 package acme.features.chef.recipe;
 
 import java.util.Collection;
-import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.components.MoneyExchange;
-import acme.entities.configurations.SystemConfiguration;
 import acme.entities.recipes.Quantity;
 import acme.entities.recipes.Recipe;
-import acme.features.authenticated.moneyExchange.AuthenticatedMoneyExchangePerformService;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
 import acme.framework.datatypes.Money;
 import acme.framework.services.AbstractShowService;
 import acme.roles.Chef;
+import acme.utils.ConversionExchange;
 
 @Service
 public class ChefRecipeShowService implements AbstractShowService<Chef, Recipe> {
@@ -24,6 +21,9 @@ public class ChefRecipeShowService implements AbstractShowService<Chef, Recipe> 
 
 	@Autowired
 	protected ChefRecipeRepository repository;
+	
+	@Autowired
+	protected ConversionExchange exchange;
 
 	// AbstractShowService<Administrator, Recipe> interface --------------
 
@@ -55,6 +55,7 @@ public class ChefRecipeShowService implements AbstractShowService<Chef, Recipe> 
 		result.setRetailPrice(this.totalPriceOfRecipe(recipeId));
 
 		return result;
+		
 	}
 
 	@Override
@@ -71,53 +72,12 @@ public class ChefRecipeShowService implements AbstractShowService<Chef, Recipe> 
 
 		String result = "";
 
-		result = entity.isPublished() ? "The Recipe is published": "The Recipe is not published";
+		result = entity.isPublished() ? "The recipe is published": "The recipe is not published";
 		model.setAttribute("published", result);
 	}
 	
-	//IMPLEMENTACION CACHÉ DE CONVERSIONES
-
 	/**
-	 * @param money
-	 * @return conversiones de divisas haciendo uso de la cache
-	 */
-	protected MoneyExchange conversion(final Money money) {
-
-		final AuthenticatedMoneyExchangePerformService moneyExchange = new AuthenticatedMoneyExchangePerformService();
-
-		MoneyExchange conversion = new MoneyExchange();
-
-		final SystemConfiguration systemConfiguration = this.repository.findSystemConfiguration();
-		
-		//Si la divisa es diferente de la divisa predeterminada de la configuración del sistema, entonces pueden ocurrir 2 cosas:
-
-		if(!money.getCurrency().equals(systemConfiguration.getSystemCurrency())) {
-			conversion = this.repository.findMoneyExchangeByCurrencyAndAmount(money.getCurrency(), money.getAmount());
-			
-			//Se obtiene o calcula  la conversión
-
-			if(conversion == null) {
-				conversion = moneyExchange.computeMoneyExchange(money, systemConfiguration.getSystemCurrency());
-				this.repository.save(conversion);
-
-			}
-			
-			//En caso contrario, no es necesario realizar una conversión
-
-		} else {
-			conversion.setSource(money);
-			conversion.setTarget(money);
-			conversion.setCurrencyTarget(systemConfiguration.getSystemCurrency());
-			conversion.setDate(new Date(System.currentTimeMillis()));
-
-		}
-
-		return conversion;
-
-	}
-
-	/**
-	 * @param RecipeId
+	 * @param recipeId
 	 * @return the total price of the Recipe with his currency
 	 */
 	private Money totalPriceOfRecipe(final int RecipeId) {
@@ -132,7 +92,7 @@ public class ChefRecipeShowService implements AbstractShowService<Chef, Recipe> 
 			final Money itemMoney = quantity.getItem().getRetailPrice();
 			final int number = quantity.getNumber();
 
-			conversionAmount = this.conversion(itemMoney).getTarget().getAmount();
+			conversionAmount = this.exchange.conversion(itemMoney).getTarget().getAmount();
 
 			final Double newAmount = (double) Math.round((result.getAmount() + conversionAmount*number)*100)/100;
 			result.setAmount(newAmount);

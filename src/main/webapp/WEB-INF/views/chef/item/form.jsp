@@ -4,6 +4,10 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
 <acme:form>
+	<jstl:if test="${command == 'show'}">
+		<acme:input-money code="chef.item.form.label.conversion" path="conversion" readonly="true"/>
+	</jstl:if>
+	
 	<acme:input-select code="chef.item.form.label.typeEntity" path="typeEntity">
 		<acme:input-option code="INGREDIENT" value="INGREDIENT" selected="${typeEntity == 'INGREDIENT'}"/>
 		<acme:input-option code="KITCHENUTENSIL" value="KITCHENUTENSIL" selected="${typeEntity == 'KITCHENUTENSIL'}"/>
@@ -13,7 +17,6 @@
 	<acme:input-textarea code="chef.item.form.label.description" path="description"/>
 	<acme:input-money code="chef.item.form.label.retailPrice" path="retailPrice"/>
 	<acme:input-url code="chef.item.form.label.link" path="link"/>
-	<acme:input-money code="chef.item.form.label.conversion" path="conversion" readonly="true"/>
 	
 	<jstl:choose>
 		<jstl:when test="${acme:anyOf(command, 'show, update, delete, publish') && published == false}">
