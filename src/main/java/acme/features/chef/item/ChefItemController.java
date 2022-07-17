@@ -17,20 +17,20 @@ public class ChefItemController extends AbstractController<Chef, Item> {
 	@Autowired
 	protected ChefItemShowService			showService;
 
-//	@Autowired
-//	protected ChefItemCreateService		createService;
-//
-//	@Autowired
-//	protected ChefItemUpdateService		updateService;
-//
-//	@Autowired
-//	protected ChefItemDeleteService		deleteService;
+	@Autowired
+	protected ChefItemCreateService		createService;
+
+	@Autowired
+	protected ChefItemUpdateService		updateService;
+
+	@Autowired
+	protected ChefItemDeleteService		deleteService;
 
 	@Autowired
 	protected ChefItemListMineService	itemListMineService;
 
-//	@Autowired
-//	protected ChefItemPublishService		publishService;
+	@Autowired
+	protected ChefItemPublishService		publishService;
 
 	// Constructors -----------------------------------------------------------
 
@@ -38,13 +38,13 @@ public class ChefItemController extends AbstractController<Chef, Item> {
 	@PostConstruct
 	protected void initialise() {
 		super.addCommand("show", this.showService);
-//		super.addCommand("create", this.createService);
-//		super.addCommand("update", this.updateService);
-//		super.addCommand("delete", this.deleteService);
+		super.addCommand("create", this.createService);
+		super.addCommand("update", this.updateService);
+		super.addCommand("delete", this.deleteService);
 
 		super.addCommand("list-mine-items", "list", this.itemListMineService);
 
-//		super.addCommand("publish", "update", this.publishService);
+		super.addCommand("publish", "update", this.publishService);
 	}
 
 }
