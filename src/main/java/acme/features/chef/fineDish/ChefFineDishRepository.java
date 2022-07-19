@@ -14,7 +14,7 @@ public interface ChefFineDishRepository extends AbstractRepository {
 	@Query("select f from FineDish f where f.id = :id")
 	FineDish findOneById(int id);
 
-	@Query("select f from FineDish f where f.chef.id = :chefId")
+	@Query("select f from FineDish f where f.chef.id = :chefId and f.published = 1")
 	Collection<FineDish> findManyFineDishesByChefId(int chefId);
 
 }

@@ -15,6 +15,6 @@
 		<acme:input-checkbox code="chef.memorandum.form.label.confirmation" path="confirmation"/>
 	</jstl:if>
 	
-	<acme:submit test="${command == 'create'  && (status == 'ACCEPTED' || status == 'DENIED')}" code="chef.memorandum.list.button.create" action="/chef/memorandum/create?fineDishId=${fineDishId}"/>	
+	<acme:submit test="${command == 'create'  && (status == 'ACCEPTED' || status == 'DENIED')}" code="chef.memorandum.form.button.create" action="/chef/memorandum/create?fineDishId=${fineDishId}"/>	
 			
 </acme:form>
