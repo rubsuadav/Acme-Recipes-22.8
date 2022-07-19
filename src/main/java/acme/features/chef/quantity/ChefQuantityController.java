@@ -15,25 +15,25 @@ public class ChefQuantityController extends AbstractController<Chef, Quantity> {
 	@Autowired
 	protected ChefQuantityShowService chefQuantityShowService;
 	
-//	@Autowired
-//	protected ChefToolkitItemUpdateService chefToolkitItemUpdateService;
-//				
-//	@Autowired
-//	protected ChefToolkitItemDeleteService chefToolkitItemDeleteService;
+	@Autowired
+	protected ChefQuantityUpdateService chefQuantityUpdateService;
+				
+	@Autowired
+	protected ChefQuantityDeleteService chefQuantityDeleteService;
 	
 	@Autowired
 	protected ChefQuantityListService chefQuantityListService;
 	 
-//	@Autowired
-//	protected ChefQuantityCreateService createService;
+	@Autowired
+	protected ChefQuantityCreateService chefQuantityCreateService;
 
 	@PostConstruct
 	protected void initialise() {
 		super.addCommand("list-recipe-items", "list", this.chefQuantityListService);
-//		super.addCommand("create", this.createService);
+		super.addCommand("create", this.chefQuantityCreateService);
 		super.addCommand("show", this.chefQuantityShowService);
-//		super.addCommand("update", this.chefToolkitItemUpdateService);
-//		super.addCommand("delete", this.chefToolkitItemDeleteService);
+		super.addCommand("update", this.chefQuantityUpdateService);
+		super.addCommand("delete", this.chefQuantityDeleteService);
 
 	}
 
