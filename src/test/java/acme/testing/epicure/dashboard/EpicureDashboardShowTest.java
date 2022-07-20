@@ -31,7 +31,13 @@ public class EpicureDashboardShowTest extends TestHarness{
 	@Test
 	@Order(30)
 	public void hackingTest() {
-		// HINT+ a) estando logueado como anonimo y chef no poder ver el panel de indicadores de epicure
+		super.navigate("/epicure/epicure-dashboard/show");
+		super.checkPanicExists();
+
+		super.signIn("chef1", "chef1");
+		super.navigate("/epicure/epicure-dashboard/show");
+		super.checkPanicExists();
+		super.signOut();
 
 	}
 

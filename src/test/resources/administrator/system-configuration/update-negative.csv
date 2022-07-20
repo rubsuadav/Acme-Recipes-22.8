@@ -1,0 +1,8 @@
+recordIndex,acceptedCurrencies,systemCurrency,strongSpamWords,strongSpamThreshold,weakSpamWords,weakSpamThreshold
+0,,EUR,"sex,sexo,hard core,viagra,cialis",10.00,"sexy, nigeria,you´re won, has ganado, one million, un millón",25.00
+1,"EUR,USD,GBP",,"sex,sexo,hard core,viagra,cialis",10.00,"sexy, nigeria,you´re won, has ganado, one million, un millón",25.00
+2,"EUR,USD,GBP",USD,,10.00,"sexy, nigeria,you´re won, has ganado, one million, un millón",25.00
+3,"EUR,USD,GBP",GBP,"sex,sexo,hard core,viagra,cialis",,"sexy, nigeria,you´re won, has ganado, one million, un millón",25.00
+4,"EUR,USD,GBP",EUR,"sex,sexo,hard core,viagra,cialis",10.00,,25.00
+5,"EUR,USD,GBP",USD,"sex,sexo,hard core,viagra,cialis",10.00,"sexy, nigeria,you´re won, has ganado, one million, un millón",
+6,"EUR,USD,GBP",YEN,"sex,sexo,hard core,viagra,cialis",10.00,"sexy, nigeria,you´re won, has ganado, one million, un millón",15.00
