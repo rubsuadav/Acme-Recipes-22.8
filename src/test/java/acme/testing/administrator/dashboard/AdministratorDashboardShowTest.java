@@ -35,7 +35,18 @@ public class AdministratorDashboardShowTest extends TestHarness{
 	@Test
 	@Order(30)
 	public void hackingTest() {
-		// HINT+ a) estando logueado como epicure,anonimo y chef no poder ver el panel de indicadores de administradores
+		super.navigate("/administrator/administrator-dashboard/show");
+		super.checkPanicExists();
+
+		super.signIn("chef1", "chef1");
+		super.navigate("/administrator/administrator-dashboard/show");
+		super.checkPanicExists();
+		super.signOut();
+
+		super.signIn("epicure1", "epicure1");
+		super.navigate("/administrator/administrator-dashboard/show");
+		super.checkPanicExists();
+		super.signOut();
 
 	}
 	
