@@ -27,7 +27,7 @@
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
-			<acme:menu-suboption code="master.menu.administrator.announcement.list.button.create" action="/administrator/announcement/create"/>
+			<acme:menu-suboption code="master.menu.administrator.bulletin.list.button.create" action="/administrator/bulletin/create"/>
 			<acme:menu-suboption code="master.menu.administrator.administrator-dashboard" action="/administrator/administrator-dashboard/show"/>
 			<acme:menu-suboption code="master.menu.administrator.system-configuration" action="/administrator/system-configuration/show"/>
 			<acme:menu-separator/>

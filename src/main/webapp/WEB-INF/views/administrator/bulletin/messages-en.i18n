@@ -1,0 +1,8 @@
+administrator.bulletin.form.label.instantiationMoment = Instantiation moment:
+administrator.bulletin.form.label.heading = Heading:
+administrator.bulletin.form.label.pieceOfText =  Piece of text:
+administrator.bulletin.form.label.criticalFlag = Is Critical Flag?:
+administrator.bulletin.form.label.link = Link:
+
+administrator.bulletin.form.label.confirmation = Confirm:
+administrator.bulletin.form.button.create = Create

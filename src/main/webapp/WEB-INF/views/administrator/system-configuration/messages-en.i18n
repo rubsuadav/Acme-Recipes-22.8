@@ -4,4 +4,5 @@ administrator.systemconfiguration.form.label.strong-spam-words = Strong spam wor
 administrator.systemconfiguration.form.label.strong-spam-threshold = Strong spam threshold:
 administrator.systemconfiguration.form.label.weak-spam-words = Weak spam words:
 administrator.systemconfiguration.form.label.weak-spam-threshold = Weak spam threshold:
-administrator.systemconfiguration.form.label.button=Update
+administrator.configuration.form.error.incorrect-system-currency = System currency must be in the list of the accepted currencies
+administrator.systemconfiguration.form.label.button = Update

@@ -1,0 +1,8 @@
+administrator.bulletin.form.label.instantiationMoment = Fecha de instanciacion:
+administrator.bulletin.form.label.heading = Cabecera:
+administrator.bulletin.form.label.pieceOfText =  Pieza de texto:
+administrator.bulletin.form.label.criticalFlag = ¿Es bandera crítica?:
+administrator.bulletin.form.label.link = Link:
+
+administrator.bulletin.form.label.confirmation = Confirmación
+administrator.bulletin.form.button.create = Crear

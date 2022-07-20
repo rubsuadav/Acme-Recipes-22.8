@@ -4,4 +4,5 @@ administrator.systemconfiguration.form.label.strong-spam-words = Palabras fuerte
 administrator.systemconfiguration.form.label.strong-spam-threshold = Limite de palabras fuertes:
 administrator.systemconfiguration.form.label.weak-spam-words = Palabras debiles de spam:
 administrator.systemconfiguration.form.label.weak-spam-threshold = Limite de palabras debiles:
-administrator.systemconfiguration.form.label.button= Actualizar
+administrator.configuration.form.error.incorrect-system-currency = El sistema de monedas debe de estar en el listado de las monedas aceptadas
+administrator.systemconfiguration.form.label.button = Actualizar

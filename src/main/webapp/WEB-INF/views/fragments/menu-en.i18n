@@ -33,7 +33,7 @@ master.menu.administrator.populate-initial = Populate DB (initial)
 master.menu.administrator.populate-sample = Populate DB (samples)
 master.menu.administrator.system-configuration = Show system configuration
 master.menu.administrator.administrator-dashboard = Dashboard
-master.menu.administrator.announcement.list.button.create = Create announcement
+master.menu.administrator.bulletin.list.button.create = Create bulletin
 
 # master.menu.epicure ##########################################################
 

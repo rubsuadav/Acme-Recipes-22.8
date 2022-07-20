@@ -12,19 +12,19 @@ import acme.framework.roles.Administrator;
 @Controller
 public class AdministratorSystemConfigurationController extends AbstractController<Administrator, SystemConfiguration>{
 
-    // Internal state ---------------------------------------------------------
-        @Autowired
-        protected AdministratorSystemConfigurationShowService showService;
-        
-//        @Autowired
-//        protected AdministratorSystemConfigurationUpdateService updateService;
+	// Internal state ---------------------------------------------------------
+	
+	@Autowired
+	protected AdministratorSystemConfigurationShowService showService;
 
-        // Constructors -----------------------------------------------------------
+	@Autowired
+	protected AdministratorSystemConfigurationUpdateService updateService;
 
+	// Constructors -----------------------------------------------------------
 
-        @PostConstruct
-        protected void initialise() {
-            super.addCommand("show", this.showService);
-            //super.addCommand("update", this.updateService);
-        }
+	@PostConstruct
+	protected void initialise() {
+		super.addCommand("show", this.showService);
+		super.addCommand("update", this.updateService);
+	}
 }
