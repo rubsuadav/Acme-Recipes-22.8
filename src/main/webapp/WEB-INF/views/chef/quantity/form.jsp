@@ -4,13 +4,15 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
 <acme:form>
+    <jstl:if test="${command == 'show'}">
+    	<acme:input-money code="chef.item.form.label.conversion" path="conversion" readonly="true"/>
+    </jstl:if>
 	<jstl:if test="${acme:anyOf(command, 'show, update')}">
 		<acme:input-integer code="chef.item.form.label.number" path="number"/> 
 		<acme:input-textbox code="chef.item.form.label.name" path="item.name" readonly="true"/>
 		<acme:input-textbox code="chef.item.form.label.code" path="item.code" readonly="true"/>
 		<acme:input-textbox code="chef.item.form.label.description" path="item.description" readonly="true"/>
 		<acme:input-money code="chef.item.form.label.retailPrice" path="item.retailPrice" readonly="true"/>
-		<acme:input-money code="chef.item.form.label.conversion" path="conversion" readonly="true"/>
 		<acme:input-textbox code="chef.item.form.label.link" path="item.link" readonly="true"/>
 		<acme:input-textbox code="chef.item.form.label.published" path="published" readonly="true"/>
 	</jstl:if>
