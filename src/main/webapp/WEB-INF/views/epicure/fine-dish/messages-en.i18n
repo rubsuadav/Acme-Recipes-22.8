@@ -15,6 +15,8 @@ epicure.fine-dish.form.error.non-accepted-currency = The currency must be in the
 epicure.fine-dish.form.error.negative-budget = The price must be positive
 epicure.fine-dish.form.error.too-close-start-date = The start date must be at least one month older than the creation date
 epicure.fine-dish.form.error.one-month = The end date must be at least one month older than the start date.
+epicure.fine-dish.form.error.no-chef = You must to select 1 chef
+
 epicure.fine-dish.form.label.chef = Select chef
 
 epicure.fine-dish.form.button.create = Create

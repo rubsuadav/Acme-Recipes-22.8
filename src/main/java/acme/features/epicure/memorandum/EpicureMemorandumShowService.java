@@ -55,7 +55,6 @@ public class EpicureMemorandumShowService implements AbstractShowService<Epicure
 		assert model != null;
 
 		request.unbind(entity, model, "automaticSequenceNumber", "instantiationMoment", "report", "link");
-		model.setAttribute("confirmation", false);
-		model.setAttribute("readonly", true);
+	
 	}
 }
