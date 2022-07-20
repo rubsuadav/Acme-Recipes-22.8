@@ -1,0 +1,10 @@
+recordIndex,typeEntity,name,code,description,retailPrice,link
+0,INGREDIENT,ingredient 1,ASF-679,a piece of metal with a flat end that is fixed onto the end of a long thin used for hitting things,EUR 15.00,
+1,INGREDIENT,ingredient 2,GHY-421,like a hammer,GBP 15.00,
+2,INGREDIENT,ingredient 4,DQW-732,useful for building furniture,USD 4.50,
+3,INGREDIENT,ingredient 5,DRT-061,useful for constructions,EUR 8.55,
+4,KITCHENUTENSIL,kitchen utensil 1,AA:QHE-136,a handle joined to a metal rod shaped at one end to fit in the cut in the top of the screw,EUR 20.30,https://www.deubaxxl.es/destornilladores-set-de-12-de-cruz-y-lineales.-3248
+5,KITCHENUTENSIL,kitchen utensil 3,CC:ABF-871,useful for cutting wood,USD 20.35,
+6,KITCHENUTENSIL,kitchen utensil 6,FF:MPO-124,this KITCHENUTENSIL is very peculiar,GBP 90.50,
+7,KITCHENUTENSIL,kitchen utensil 7,GG:RCS-126,this KITCHENUTENSIL is very peculiar,GBP 780.50,
+8,KITCHENUTENSIL,kitchen utensil 8,HH:PSG-128,this KITCHENUTENSIL is very peculiar,GBP 10.50,

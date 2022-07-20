@@ -1,0 +1,10 @@
+recordIndex,typeEntity,name,code,retailPrice
+0,INGREDIENT,ingredient 1,ASF-679,EUR 15.00
+1,INGREDIENT,ingredient 2,GHY-421,GBP 15.00
+2,INGREDIENT,ingredient 4,DQW-732,USD 4.50
+3,INGREDIENT,ingredient 5,DRT-061,EUR 8.55
+4,KITCHENUTENSIL,kitchen utensil 1,AA:QHE-136,EUR 20.30
+5,KITCHENUTENSIL,kitchen utensil 3,CC:ABF-871,USD 20.35
+6,KITCHENUTENSIL,kitchen utensil 6,FF:MPO-124,GBP 90.50
+7,KITCHENUTENSIL,kitchen utensil 7,GG:RCS-126,GBP 780.50
+8,KITCHENUTENSIL,kitchen utensil 8,HH:PSG-128,GBP 10.50
