@@ -1,0 +1,6 @@
+epicure.dashboard.form.title = Epicure dashboard
+epicure.dashboard.form.label.number-of-fine-dishes-by-status = FineDish by status
+epicure.dashboard.form.label.average-number-of-budgets-by-currency-and-status = Average price of a budget by currency and status
+epicure.dashboard.form.label.deviation-of-budgets-by-currency-and-status = Deviation of the price of the budgets by currency and status
+epicure.dashboard.form.label.min-budget-by-currency-and-status = Minimum price of a budget by currency and status
+epicure.dashboard.form.label.max-budget-by-currency-and-status = Maximum price of a budget by currency and status

@@ -78,13 +78,17 @@
         let basicLabel = type + ".dashboard.form";
         let titleLabel = basicLabel + ".title";
         table.setAttribute("class", "table table-sm mt-5");
+        getCode(title, titleLabel);
         h2.appendChild(title);
         for (let id of ids) {
             let tr = document.createElement("tr");
             let th = document.createElement("th");
             let td = document.createElement("td");
             let strong = document.createElement("strong");
+            let code = basicLabel + ".label." + parseCode(id);
+            getCode(strong, code);
             strong.style.fontSize = "18px";
+            strong.setAttribute("id", "strong-" + code);
             th.setAttribute("scope", "row");
             let result;
             if(values[ids.indexOf(id)].includes("{")){
@@ -113,6 +117,16 @@
         return barColors;
     }
 
+    function getCode(element, label){
+        element.innerText = document.getElementById(label).innerHTML.trim();
+        document.getElementById(label).parentNode.removeChild(document.getElementById(label));
+    }
+
+    function parseCode(id) {
+        let result = id.trim().replace(/([A-Z])/g, " $1");
+        return result.split(' ').join('-').toLowerCase().trim();
+    }
+
     function getPrettyText(value, text){
         let result = value + " " + text.split(" ")[text.split(" ").length-1];
         if(parseInt(value.trim()) === 1 && result[result.length-1] === "s"){
@@ -123,7 +137,7 @@
 
     function createDashboard(items, methods) {
         let path = window.location.pathname;
-        let slices = path.substring(0, path.search("-dashboard")).split("/");
+        let slices = path.substring(0, path.search(".dashboard")).split("/");
         let type = slices[slices.length - 1].trim();
         methods = methods.replaceAll('[', '').replaceAll(']', '').split(",");
         items = items.replaceAll('},', '}},').replaceAll('[', '').replaceAll(']', '').split("},");

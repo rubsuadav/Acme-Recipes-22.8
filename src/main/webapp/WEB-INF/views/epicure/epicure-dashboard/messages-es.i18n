@@ -1,0 +1,6 @@
+epicure.dashboard.form.title = Panel de epicures
+epicure.dashboard.form.label.number-of-fine-dishes-by-status = Platillos por estado
+epicure.dashboard.form.label.average-number-of-budgets-by-currency-and-status = Precio medio de un presupuesto por divisa y estado
+epicure.dashboard.form.label.deviation-of-budgets-by-currency-and-status = Desviacion del precio de los presupuestos por divisa y estado
+epicure.dashboard.form.label.min-budget-by-currency-and-status = Precio mínimo de un presupuesto por divisa y estado
+epicure.dashboard.form.label.max-budget-by-currency-and-status = Precio máximo de un presupuesto por divisa y estado
