@@ -1,0 +1,18 @@
+administrator.dashboard.form.title = Administrator dashboard
+administrator.dashboard.form.label.number-of-kitchen-utensils = Utensilios
+administrator.dashboard.form.label.average-retail-price-of-kitchen-utensils-by-currency = Media del precio de los utensilios por divisa
+administrator.dashboard.form.label.deviation-retail-price-of-kitchen-utensils-by-currency = Desviacion del precio de los utensilios por divisa
+administrator.dashboard.form.label.min-retail-price-of-kitchen-utensils-by-currency = Minimo del precio de los utensilios por divisa
+administrator.dashboard.form.label.max-retail-price-of-kitchen-utensils-by-currency = Maximo del precio de los utensilios por divisa
+
+administrator.dashboard.form.label.number-of-ingredients = Ingredientes
+administrator.dashboard.form.label.average-retail-price-of-ingredients-by-currency = Media del precio de los ingredientes por divisa 
+administrator.dashboard.form.label.deviation-retail-price-of-ingredients-by-currency = Desviacion del precio de los ingredientes por divisa
+administrator.dashboard.form.label.min-retail-price-of-ingredients-by-currency = Minimo del precio de los ingredientes por divisa
+administrator.dashboard.form.label.max-retail-price-of-ingredients-by-currency = Maximo del precio de los ingredientes por divisa
+
+administrator.dashboard.form.label.number-of-fine-dishes-by-status = Platillos por estado
+administrator.dashboard.form.label.average-budget-of-fine-dishes-by-status = Media del presupuesto de los platillos por estado
+administrator.dashboard.form.label.deviation-budget-of-fine-dishes-by-status = Desviacion del presupuesto de los platillos por estado
+administrator.dashboard.form.label.min-budget-of-fine-dishes-by-status = Minimo del presupuesto de los platillos por estado
+administrator.dashboard.form.label.max-budget-of-fine-dishes-by-status = Maximo del presupuesto de los platillos por estado

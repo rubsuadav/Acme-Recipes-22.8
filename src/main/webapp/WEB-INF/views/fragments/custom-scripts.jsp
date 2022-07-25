@@ -118,8 +118,10 @@
     }
 
     function getCode(element, label){
-        element.innerText = document.getElementById(label).innerHTML.trim();
-        document.getElementById(label).parentNode.removeChild(document.getElementById(label));
+    	if(document.getElementById(label) != null){
+       		element.innerText = document.getElementById(label).innerHTML.trim();
+        	document.getElementById(label).parentNode.removeChild(document.getElementById(label));
+    	}
     }
 
     function parseCode(id) {
@@ -137,7 +139,7 @@
 
     function createDashboard(items, methods) {
         let path = window.location.pathname;
-        let slices = path.substring(0, path.search(".dashboard")).split("/");
+        let slices = path.substring(0, path.search("-dashboard")).split("/");
         let type = slices[slices.length - 1].trim();
         methods = methods.replaceAll('[', '').replaceAll(']', '').split(",");
         items = items.replaceAll('},', '}},').replaceAll('[', '').replaceAll(']', '').split("},");

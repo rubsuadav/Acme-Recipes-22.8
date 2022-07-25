@@ -1,0 +1,18 @@
+administrator.dashboard.form.title = Administrator dashboard
+administrator.dashboard.form.label.number-of-kitchen-utensils = Utensils
+administrator.dashboard.form.label.average-retail-price-of-kitchen-utensils-by-currency = Average price of a utensil by currency
+administrator.dashboard.form.label.deviation-retail-price-of-kitchen-utensils-by-currency = Deviation of the price of the utensils by currency
+administrator.dashboard.form.label.min-retail-price-of-kitchen-utensils-by-currency = Minimum price of a utensil by currency
+administrator.dashboard.form.label.max-retail-price-of-kitchen-utensils-by-currency = Maximum price of a utensil by currency 
+
+administrator.dashboard.form.label.number-of-ingredients = Ingredients
+administrator.dashboard.form.label.average-retail-price-of-ingredients-by-currency = Average price of a ingredient by currency 
+administrator.dashboard.form.label.deviation-retail-price-of-ingredients-by-currency = Deviation of the price of the ingredients by currency 
+administrator.dashboard.form.label.min-retail-price-of-ingredients-by-currency = Minimum price of a ingredient by currency 
+administrator.dashboard.form.label.max-retail-price-of-ingredients-by-currency = Maximum price of a ingredient by currency
+
+administrator.dashboard.form.label.number-of-fine-dishes-by-status = FineDish by status
+administrator.dashboard.form.label.average-budget-of-fine-dishes-by-status = Average budget of fine dishes by status
+administrator.dashboard.form.label.deviation-budget-of-fine-dishes-by-status = Deviation budget of fine dishes by status
+administrator.dashboard.form.label.min-budget-of-fine-dishes-by-status = Min budget of fine dishes by status
+administrator.dashboard.form.label.max-budget-of-fine-dishes-by-status = Max budget of fine dishes by status
