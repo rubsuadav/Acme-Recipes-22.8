@@ -13,7 +13,7 @@
 		<acme:input-textbox code="chef.item.form.label.code" path="item.code" readonly="true"/>
 		<acme:input-textbox code="chef.item.form.label.description" path="item.description" readonly="true"/>
 		<acme:input-money code="chef.item.form.label.retailPrice" path="item.retailPrice" readonly="true"/>
-		<acme:input-textbox code="chef.item.form.label.link" path="item.link" readonly="true"/>
+		<acme:input-url code="chef.item.form.label.link" path="item.link" readonly="true"/>
 		<acme:input-textbox code="chef.item.form.label.published" path="published" readonly="true"/>
 	</jstl:if>
 						

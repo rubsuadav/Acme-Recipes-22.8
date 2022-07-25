@@ -1,0 +1,4 @@
+recordIndex,code,heading,description,preparationNotes,link
+3,UDC-345,valid,tiburones,nota preparacion,
+4,VC:EDC-134,este es un titulo que tiene exactamente 100 caracteres por lo que pasara la prueba del test positivo,esto es una gran request de prueba de cantidad de palabras que es capaz de contener menos de 255 caracteres evitando asi la validacion del campo lenght del framework de spring capaz de crear todo el codigo sql de las tablas de la base de datos con datos,esto es una gran request de prueba de cantidad de palabras que es capaz de contener menos de 255 caracteres evitando asi la validacion del campo lenght del framework de spring capaz de crear todo el codigo sql de las tablas de la base de datos con datos,
+5,XC:MAC-278,va,ve,vi,
