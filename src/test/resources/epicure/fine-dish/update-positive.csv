@@ -1,0 +1,7 @@
+recordIndex,status,code,legalStuff,budget,initial,end,link
+2,ACCEPTED,NA:HNY-731,esto es una gran request de prueba de cantidad de palabras que es capaz de contener menos de 255 caracteres evitando asi la validacion del campo lenght del framework de spring capaz de crear todo el codigo sql de las tablas de la base de datos con datos,USD 34.56,2023/09/11 23:00,2042/02/11 23:00,
+2,ACCEPTED,MVG-912,He has import stuf,EUR 23.97,2023/09/11 23:00,2042/02/11 23:00,
+2,ACCEPTED,RSD-812,aa,"EUR 1,234.87",2023/09/11 23:00,2042/02/11 23:00,,1
+2,ACCEPTED,UU:UVA-865,This patronage have an important legal stuff; read it please!,GBP 12.45,2023/09/11 23:00,2042/02/11 23:00,
+2,ACCEPTED,UWU-912,aaaijehñrkñjorf,GBP 92.15,2023/09/11 23:00,2042/02/11 23:00,
+2,ACCEPTED,WDC-123,this is very important,USD 12.45,2023/09/11 23:00,2042/02/11 23:00,

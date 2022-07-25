@@ -6,7 +6,7 @@ fine-dish-04,DENIED,POL-777,this is the last fine-dish without legal stuff,"USD 
 fine-dish-05,PROPOSED,CC:DPS-190,can you see the legal stuff of this fine-dish?,"EUR 200,000.00",2018/07/13 16:44,2017/07/12 01:00,2019/12/25 22:30,null,chef-03,epicure-03,false
 fine-dish-06,ACCEPTED,ADA-478,this is a relevant fine-dish,"GBP 300,560.20",2017/09/12 17:44,2018/02/25 01:00,2019/12/25 22:30,null,chef-02,epicure-02,true
 fine-dish-07,PROPOSED,DD:PSM-154,I can't show you the stuff here,"USD 205,056.70",2021/09/12 17:44,2022/02/25 01:00,2049/12/25 22:30,null,chef-03,epicure-03,false
-fine-dish-08,ACCEPTED,MVG-912,this fine-dish have a lot of secrets. Be carefully,"EUR 500,250.80",2018/10/11 19:34,2017/10/25 01:00,2019/12/25 22:30,null,chef-01,epicure-01,false
+fine-dish-08,ACCEPTED,MVG-912,this fine-dish have a lot of secrets. Be carefully,"EUR 500,250.80",2018/10/11 19:34,2017/10/25 01:00,2019/12/25 22:30,null,chef-01,epicure-01,true
 fine-dish-09,DENIED,EE:CED-942,this is a particular fine-dish,"GBP 50,000.00",2010/09/12 17:44,2009/02/25 01:00,2019/12/25 22:30,null,chef-02,epicure-02,true
 fine-dish-10,PROPOSED,EDC-198,expensive fine-dish,"GBP 600,900.00",2018/09/12 17:44,2017/02/25 01:00,2019/12/25 22:30,null,chef-03,epicure-03,true
 fine-dish-11,ACCEPTED,FF:ALN-321,this fine-dish have a lot of secrets. Be carefully,"EUR 500,250.80",2018/10/11 19:34,2017/10/25 01:00,2019/12/25 22:30,null,chef-01,epicure-03,true
