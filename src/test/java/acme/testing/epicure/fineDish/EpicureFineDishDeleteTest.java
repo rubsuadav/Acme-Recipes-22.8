@@ -49,7 +49,6 @@ public class EpicureFineDishDeleteTest extends TestHarness{
 		super.checkListingExists();
 		super.sortListing(1, "asc");
 		super.clickOnListingRecord(recordIndex);
-		super.checkFormExists();
 		
 		super.checkInputBoxHasValue("status", status);
 		super.checkInputBoxHasValue("code", code);
