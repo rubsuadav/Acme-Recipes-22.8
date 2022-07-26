@@ -10,6 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.entities.fineDishes.Status;
+import acme.entities.items.Type;
 import acme.forms.AdministratorDashboard;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
@@ -139,6 +140,36 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 			maxBudgetOfFineDishesByStatus.put(Status.values()[i], this.repository.maxBudgetOfFineDishesByStatus(Status.values()[i]));
 		}
 		
+		//PIMPAMS (CC)
+		
+		double ratioOfItemsWithPimpams;
+		Map<String, Double>	averageBudgetOfPimpamsByCurrency;
+		Map<String, Double> deviationBudgetOfPimpamsByCurrency;
+		Map<String, Double>	minBudgetOfPimpamsByCurrency;
+		Map<String, Double>	maxBudgetOfPimpamsByCurrency;
+		
+		ratioOfItemsWithPimpams = this.repository.ratioOfItemsWithPimpams(Type.INGREDIENT);
+		
+		averageBudgetOfPimpamsByCurrency = new HashMap<>();
+		for(int i=0; i<currencies.size(); i++) {
+			averageBudgetOfPimpamsByCurrency.put(currencies.get(i), this.repository.averageBudgetOfPimpamsByCurrency(currencies.get(i)));
+		}
+		
+		deviationBudgetOfPimpamsByCurrency = new HashMap<>();
+		for(int i=0; i<currencies.size(); i++) {
+			deviationBudgetOfPimpamsByCurrency.put(currencies.get(i), this.repository.deviationBudgetOfPimpamsByCurrency(currencies.get(i)));
+		}
+		
+		minBudgetOfPimpamsByCurrency = new HashMap<>();
+		for(int i=0; i<currencies.size(); i++) {
+			minBudgetOfPimpamsByCurrency.put(currencies.get(i), this.repository.minBudgetOfPimpamsByCurrency(currencies.get(i)));
+		}
+		
+		maxBudgetOfPimpamsByCurrency = new HashMap<>();
+		for(int i=0; i<currencies.size(); i++) {
+			maxBudgetOfPimpamsByCurrency.put(currencies.get(i), this.repository.maxBudgetOfPimpamsByCurrency(currencies.get(i)));
+		}
+		
 		// KITCHEN UTENSILS
 		
 		result.setNumberOfKitchenUtensils(numberOfKitchenUtensils);
@@ -163,6 +194,14 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		result.setMinBudgetOfFineDishesByStatus(minBudgetOfFineDishesByStatus);
 		result.setMaxBudgetOfFineDishesByStatus(maxBudgetOfFineDishesByStatus);
 		
+		//PIMPAMS (CC)
+		
+		result.setRatioOfItemsWithPimpams(ratioOfItemsWithPimpams);
+		result.setAverageBudgetOfPimpamsByCurrency(averageBudgetOfPimpamsByCurrency);
+		result.setDeviationBudgetOfPimpamsByCurrency(deviationBudgetOfPimpamsByCurrency);
+		result.setMinBudgetOfPimpamsByCurrency(minBudgetOfPimpamsByCurrency);
+		result.setMaxBudgetOfPimpamsByCurrency(maxBudgetOfPimpamsByCurrency);
+		
 		return result;
 	}
 
@@ -178,7 +217,8 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 			"numberOfIngredients", "averageRetailPriceOfIngredientsByCurrency", "deviationRetailPriceOfIngredientsByCurrency", //
 			"minRetailPriceOfIngredientsByCurrency","maxRetailPriceOfIngredientsByCurrency", //
 			"numberOfFineDishesByStatus","averageBudgetOfFineDishesByStatus","deviationBudgetOfFineDishesByStatus", //
-			"minBudgetOfFineDishesByStatus", "maxBudgetOfFineDishesByStatus");
+			"minBudgetOfFineDishesByStatus", "maxBudgetOfFineDishesByStatus"
+			,"ratioOfItemsWithPimpams", "averageBudgetOfPimpamsByCurrency", "deviationBudgetOfPimpamsByCurrency", "minBudgetOfPimpamsByCurrency", "maxBudgetOfPimpamsByCurrency");
 		
 		this.library.createDashboard(entity, model);
 		

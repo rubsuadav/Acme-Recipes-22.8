@@ -38,4 +38,12 @@ public class AdministratorDashboard implements Serializable {
 	Map<Status, Double> deviationBudgetOfFineDishesByStatus;
 	Map<Status, Double> minBudgetOfFineDishesByStatus;
 	Map<Status, Double> maxBudgetOfFineDishesByStatus;
+	
+	//PIMPAMS (CC)
+	
+	double ratioOfItemsWithPimpams;
+	Map<String, Double>	averageBudgetOfPimpamsByCurrency;
+	Map<String, Double> deviationBudgetOfPimpamsByCurrency;
+	Map<String, Double>	minBudgetOfPimpamsByCurrency;
+	Map<String, Double>	maxBudgetOfPimpamsByCurrency;
 }

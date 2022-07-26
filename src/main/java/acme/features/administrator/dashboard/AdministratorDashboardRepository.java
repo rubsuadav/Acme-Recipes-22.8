@@ -4,6 +4,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import acme.entities.fineDishes.Status;
+import acme.entities.items.Type;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
@@ -62,5 +63,22 @@ public interface AdministratorDashboardRepository extends AbstractRepository{
 	
 	@Query("SELECT MAX(p.budget.amount) FROM FineDish p WHERE p.status = :status")
 	Double maxBudgetOfFineDishesByStatus(Status status);
+	
+	//PIMPAMS (CC)
+	
+	@Query("SELECT (("+ "SELECT COUNT(r) FROM Pimpam r" + ")/COUNT(i))*100 FROM Item i WHERE i.typeEntity = :typeEntity")
+	Double ratioOfItemsWithPimpams(Type typeEntity);
+	
+	@Query("SELECT AVG(r.budget.amount) FROM Pimpam r WHERE r.budget.currency = :currency")
+	Double averageBudgetOfPimpamsByCurrency(String currency);
+	
+	@Query("SELECT STDDEV(r.budget.amount) FROM Pimpam r WHERE r.budget.currency = :currency")
+	Double deviationBudgetOfPimpamsByCurrency(String currency);
+	
+	@Query("SELECT MIN(r.budget.amount) FROM Pimpam r WHERE r.budget.currency = :currency")
+	Double minBudgetOfPimpamsByCurrency(String currency);
+	
+	@Query("SELECT MAX(r.budget.amount) FROM Pimpam r WHERE r.budget.currency = :currency")
+	Double maxBudgetOfPimpamsByCurrency(String currency);
 	
 }

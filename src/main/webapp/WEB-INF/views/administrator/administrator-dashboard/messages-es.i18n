@@ -16,3 +16,9 @@ administrator.dashboard.form.label.average-budget-of-fine-dishes-by-status = Med
 administrator.dashboard.form.label.deviation-budget-of-fine-dishes-by-status = Desviacion del presupuesto de los platillos por estado
 administrator.dashboard.form.label.min-budget-of-fine-dishes-by-status = Minimo del presupuesto de los platillos por estado
 administrator.dashboard.form.label.max-budget-of-fine-dishes-by-status = Maximo del presupuesto de los platillos por estado
+
+administrator.dashboard.form.label.ratio-of-items-with-pimpams = Ratio de objetos con pimpams
+administrator.dashboard.form.label.average-budget-of-pimpams-by-currency = Media del presupuesto de pimpams por divisa
+administrator.dashboard.form.label.deviation-budget-of-pimpams-by-currency = Desviacion del presupuesto de pimpams por divisa
+administrator.dashboard.form.label.min-budget-of-pimpams-by-currency = Minimo del presupuesto de pimpams por divisa
+administrator.dashboard.form.label.max-budget-of-pimpams-by-currency = Maximo del presupuesto de pimpams por divisa
