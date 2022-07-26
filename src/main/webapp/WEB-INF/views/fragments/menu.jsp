@@ -47,6 +47,7 @@
 			<acme:menu-suboption code="master.menu.chef.recipe.list-mine-recipes" action="/chef/recipe/list-mine-recipes"/>
 			<acme:menu-suboption code="master.menu.chef.my-fine-dishes" action="/chef/fine-dish/list-mine"/>
 			<acme:menu-suboption code="master.menu.chef.my-memorandums" action="/chef/memorandum/list-mine"/>
+			<acme:menu-suboption code="master.menu.chef.pimpam" action="/chef/pimpam/list-pimpam"/>
 		</acme:menu-option>
 		
 	</acme:menu-left>

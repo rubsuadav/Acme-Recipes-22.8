@@ -1,0 +1,28 @@
+chef.pimpam.form.label.code = Code:
+chef.pimpam.form.label.instantiation-moment = Instantiation moment:
+chef.pimpam.form.label.title = Title:
+chef.pimpam.form.label.desciption = Desciption:
+chef.pimpam.form.label.initial = Initial date:
+chef.pimpam.form.label.end = End date:
+chef.pimpam.form.label.budget = Budget:
+chef.pimpam.form.label.link = Info:
+chef.pimpam.form.label.conversion = Conversion:
+
+chef.pimpam.form.error.duplicated = The code is taken
+chef.pimpam.form.error.code = The pattern "ddmmyy" must be the current year selecting the last 2 digits; the current month and the current day
+chef.pimpam.form.error.non-accepted-currency = The currency must be in the listing
+chef.pimpam.form.error.negative-budget = The budget must be positive
+chef.pimpam.form.error.too-close-start-date = The initial date must be higher than the creation date (minimum 1 month high)
+chef.pimpam.form.error.one-week = The end date must be higher than the initial date (minimum 1 week)
+
+chef.pimpam.form.button.create = Associate pimpam
+chef.pimpam.form.button.update = Update
+chef.pimpam.form.button.delete = Delete
+
+chef.pimpam.list.label.code = Code
+chef.pimpam.list.label.instantiation-moment = Instantiation moment
+chef.pimpam.list.label.title =  Title
+chef.pimpam.list.label.budget = Budget
+chef.pimpam.list.label.item = Item
+
+chef.pimpam.list.button.create = Associate pimpam
