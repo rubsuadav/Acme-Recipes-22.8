@@ -17,14 +17,14 @@ public class ChefPimpamController extends AbstractController<Chef, Pimpam> {
 	@Autowired
 	protected ChefPimpamShowService showService;
 	
-//	@Autowired
-//	protected ChefPimpamCreateService createService;
-//	
-//	@Autowired
-//	protected ChefPimpamUpdateService updateService;
-//	
-//	@Autowired
-//	protected ChefPimpamDeleteService deleteService;
+	@Autowired
+	protected ChefPimpamCreateService createService;
+	
+	@Autowired
+	protected ChefPimpamUpdateService updateService;
+	
+	@Autowired
+	protected ChefPimpamDeleteService deleteService;
 	
 	@Autowired
 	protected ChefPimpamItemListService listPimapmItemService;
@@ -38,10 +38,10 @@ public class ChefPimpamController extends AbstractController<Chef, Pimpam> {
 	@PostConstruct
 	protected void intialise() {
 		super.addCommand("show", this.showService);
-//		super.addCommand("create", this.createService);
-//		super.addCommand("update", this.updateService);
-//		super.addCommand("delete", this.deleteService);
-		super.addCommand("list", this.listPimapmItemService);
+		super.addCommand("create", this.createService);
+		super.addCommand("update", this.updateService);
+		super.addCommand("delete", this.deleteService);
+		super.addCommand("list-items", "list", this.listPimapmItemService);
 		super.addCommand("list-pimpam","list", this.listPimpamService);
 		
 	}

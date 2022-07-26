@@ -11,4 +11,6 @@
 	<acme:list-column code="chef.pimpam.list.label.item" path="itemId" width="20%"/>
 </acme:list>
 
-<acme:button test="${showCreate}" code="chef.pimpam.list.button.create" action="/chef/pimpam/create?masterId=${masterId}"/>
+<jstl:if test="${command == 'list-items'}">
+	<acme:button test="${showCreate}" code="chef.pimpam.list.button.create" action="/chef/pimpam/create?masterId=${masterId}"/>
+</jstl:if>

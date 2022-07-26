@@ -28,5 +28,11 @@
 			<acme:submit code="chef.item.form.button.create" action="/chef/item/create"/>
 		</jstl:when>
 	</jstl:choose>
+	
+	<jstl:choose>
+		<jstl:when test="${command != 'create' && typeEntity == 'INGREDIENT'}">
+			<acme:button code="chef.item.form.button.show-pimpam" action="/chef/pimpam/list-items?masterId=${id}"/>
+		</jstl:when>
+	</jstl:choose>
 		
 </acme:form>
