@@ -58,9 +58,7 @@ public class Item extends AbstractEntity{
 	
 	// CC
 	
-	@OneToOne(optional = false)
-	@Valid
-	@NotNull
+	@OneToOne
 	protected Pimpam pimpam;
 	
 }

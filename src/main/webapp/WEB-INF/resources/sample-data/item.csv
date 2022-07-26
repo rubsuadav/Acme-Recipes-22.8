@@ -1,18 +1,18 @@
 key,type-entity,name,code,description,retail-price,link,published,key:chef,key:pimpam
 item-01,INGREDIENT,ingredient 1,ASF-679,a piece of metal with a flat end that is fixed onto the end of a long thin used for hitting things,EUR 15.00,null,true,chef-01,pimpam-01
-item-02,KITCHENUTENSIL,kitchen utensil 1,AA:QHE-136,a handle joined to a metal rod shaped at one end to fit in the cut in the top of the screw,EUR 20.30,https://www.deubaxxl.es/destornilladores-set-de-12-de-cruz-y-lineales.-3248,true,chef-02,pimpam-02
-item-03,INGREDIENT,ingredient 2,GHY-421,like a hammer,GBP 15.00,null,true,chef-03,pimpam-03
-item-04,KITCHENUTENSIL,kitchen utensil 2,BB:YOU-235,a bundle of tools,GBP 45.65,null,false,chef-01,pimpam-04
-item-05,INGREDIENT,ingredient 3,PLK-679,the utility is for building,GBP 5.00,null,false,chef-02,pimpam-05
-item-06,KITCHENUTENSIL,kitchen utensil 3,CC:ABF-871,useful for cutting wood,USD 20.35,null,true,chef-03,pimpam-06
-item-07,INGREDIENT,ingredient 4,DQW-732,useful for building furniture,USD 4.50,null,true,chef-01,pimpam-07
-item-08,KITCHENUTENSIL,kitchen utensil 4,DD:POL-555,the useful is like the coping saw,GBP 20.50,null,false,chef-02,pimpam-08
-item-09,INGREDIENT,ingredient 5,DRT-061,useful for constructions,EUR 8.55,null,true,chef-03,pimpam-09
-item-10,KITCHENUTENSIL,kitchen utensil 5,EE:OLA-122,this KITCHENUTENSIL is very peculiar,GBP 50.50,null,false,chef-01,pimpam-10
-item-11,INGREDIENT,ingredient 6,OLA-123,this ingredient is very peculiar,GBP 150.50,null,false,chef-02,pimpam-11
-item-12,KITCHENUTENSIL,kitchen utensil 6,FF:MPO-124,this KITCHENUTENSIL is very peculiar,GBP 90.50,null,true,chef-03,pimpam-12
-item-13,INGREDIENT,ingredient 7,ANA-125,this KITCHENUTENSIL is very peculiar,GBP 50.50,null,false,chef-02,pimpam-13
-item-14,KITCHENUTENSIL,kitchen utensil 7,GG:RCS-126,this KITCHENUTENSIL is very peculiar,GBP 780.50,null,true,chef-01,pimpam-14
-item-15,INGREDIENT,ingredient 8,AFR-127,this KITCHENUTENSIL is very peculiar,GBP 98.50,null,false,chef-03,pimpam-15
-item-16,KITCHENUTENSIL,kitchen utensil 8,HH:PSG-128,this KITCHENUTENSIL is very peculiar,GBP 10.50,null,true,chef-02,pimpam-16
-item-17,INGREDIENT,ingredient 9,ACK-129,this KITCHENUTENSIL is very peculiar,GBP 19.98,null,false,chef-01,pimpam-17
+item-02,KITCHENUTENSIL,kitchen utensil 1,AA:QHE-136,a handle joined to a metal rod shaped at one end to fit in the cut in the top of the screw,EUR 20.30,https://www.deubaxxl.es/destornilladores-set-de-12-de-cruz-y-lineales.-3248,true,chef-02,null
+item-03,INGREDIENT,ingredient 2,GHY-421,like a hammer,GBP 15.00,null,true,chef-03,pimpam-02
+item-04,KITCHENUTENSIL,kitchen utensil 2,BB:YOU-235,a bundle of tools,GBP 45.65,null,false,chef-01,null
+item-05,INGREDIENT,ingredient 3,PLK-679,the utility is for building,GBP 5.00,null,false,chef-02,pimpam-03
+item-06,KITCHENUTENSIL,kitchen utensil 3,CC:ABF-871,useful for cutting wood,USD 20.35,null,true,chef-03,null
+item-07,INGREDIENT,ingredient 4,DQW-732,useful for building furniture,USD 4.50,null,true,chef-01,pimpam-04
+item-08,KITCHENUTENSIL,kitchen utensil 4,DD:POL-555,the useful is like the coping saw,GBP 20.50,null,false,chef-02,null
+item-09,INGREDIENT,ingredient 5,DRT-061,useful for constructions,EUR 8.55,null,true,chef-03,pimpam-05
+item-10,KITCHENUTENSIL,kitchen utensil 5,EE:OLA-122,this KITCHENUTENSIL is very peculiar,GBP 50.50,null,false,chef-01,null
+item-11,INGREDIENT,ingredient 6,OLA-123,this ingredient is very peculiar,GBP 150.50,null,false,chef-02,pimpam-06
+item-12,KITCHENUTENSIL,kitchen utensil 6,FF:MPO-124,this KITCHENUTENSIL is very peculiar,GBP 90.50,null,true,chef-03,null
+item-13,INGREDIENT,ingredient 7,ANA-125,this KITCHENUTENSIL is very peculiar,GBP 50.50,null,false,chef-02,pimpam-07
+item-14,KITCHENUTENSIL,kitchen utensil 7,GG:RCS-126,this KITCHENUTENSIL is very peculiar,GBP 780.50,null,true,chef-01,null
+item-15,INGREDIENT,ingredient 8,AFR-127,this KITCHENUTENSIL is very peculiar,GBP 98.50,null,false,chef-03,pimpam-08
+item-16,KITCHENUTENSIL,kitchen utensil 8,HH:PSG-128,this KITCHENUTENSIL is very peculiar,GBP 10.50,null,true,chef-02,null
+item-17,INGREDIENT,ingredient 9,ACK-129,this KITCHENUTENSIL is very peculiar,GBP 19.98,null,false,chef-01,pimpam-09
