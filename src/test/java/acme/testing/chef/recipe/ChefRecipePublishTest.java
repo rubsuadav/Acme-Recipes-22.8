@@ -39,7 +39,7 @@ public class ChefRecipePublishTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/chef/recipe/publish-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void negativeTest(final int recordIndex, final String code, final String heading, final String description, final String preparationNotes, 
+	public void negativeButtonTest(final int recordIndex, final String code, final String heading, final String description, final String preparationNotes, 
 		final String link) {
 		super.signIn("chef1", "chef1");
 
@@ -61,6 +61,32 @@ public class ChefRecipePublishTest extends TestHarness{
 
 		super.signOut();
 	}
+	
+	@ParameterizedTest
+	@CsvFileSource(resources = "/chef/recipe/update-negative2.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@Order(20)
+	public void negativeTest(final int recordIndex, final String code, final String heading, final String description, final String preparationNotes, 
+		final String link) {
+		super.signIn("chef1", "chef1");
+
+		super.clickOnMenu("Chef", "My recipes");
+		super.checkListingExists();
+		super.sortListing(1, "asc");
+		super.clickOnListingRecord(recordIndex);
+		
+		super.checkFormExists();
+		super.fillInputBoxIn("code", code);
+		super.fillInputBoxIn("heading", heading);
+		super.fillInputBoxIn("description", description);
+		super.fillInputBoxIn("preparationNotes", preparationNotes);
+		super.fillInputBoxIn("link", link);
+		super.clickOnSubmit("Publish");
+
+		super.checkErrorsExist();
+
+		super.signOut();
+	}
+
 	
 	@Test
 	@Order(30)

@@ -44,7 +44,7 @@ public class ChefItemPublishTest extends TestHarness{
 	@ParameterizedTest
 	@CsvFileSource(resources = "/chef/item/publish-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)
-	public void negativeTest(final int recordIndex, final String typeEntity, final String name, final String code,
+	public void negativeButtonTest(final int recordIndex, final String typeEntity, final String name, final String code,
 		final String description, final String retailPrice, final String link) {
 		super.signIn("chef1", "chef1");
 
@@ -64,6 +64,30 @@ public class ChefItemPublishTest extends TestHarness{
 		super.checkInputBoxHasValue("retailPrice", retailPrice);
 		super.checkInputBoxHasValue("link", link);
 		super.checkNotSubmitExists("Publish");
+		super.signOut();
+	}
+	
+	@ParameterizedTest
+	@CsvFileSource(resources = "/chef/item/update-negative2.csv", encoding = "utf-8", numLinesToSkip = 1)
+	@Order(20)
+	public void negativeTest(final int recordIndex, final String typeEntity, final String name, final String code,
+		final String description, final String retailPrice, final String link) {
+		super.signIn("chef1", "chef1");
+
+		super.clickOnMenu("Chef", "My items");
+		super.checkListingExists();
+		super.clickOnListingRecord(recordIndex);
+		
+		super.checkFormExists();
+		super.fillInputBoxIn("typeEntity", typeEntity);
+		super.fillInputBoxIn("name", name);
+		super.fillInputBoxIn("code", code);
+		super.fillInputBoxIn("description", description);
+		super.fillInputBoxIn("retailPrice", retailPrice);
+		super.fillInputBoxIn("link", link);
+		super.clickOnSubmit("Publish");
+
+		super.checkErrorsExist();
 		super.signOut();
 	}
 
