@@ -1,0 +1,7 @@
+recordIndex,typeEntity,name,code,description,retailPrice,link
+0,INGREDIENT,ingredient 004,AA:AER-132,this is the new tool,GBP 12.45,
+0,KITCHENUTENSIL,este es un titulo que tiene exactamente 100 caracteres por lo que pasara la prueba del test positivo,AE:NRK-781,esto es una gran request de prueba de cantidad de palabras que es capaz de contener menos de 255 caracteres evitando asi la validacion del campo lenght del framework de spring capaz de crear todo el codigo sql de las tablas de la base de datos con datos,"EUR 1,312.95",
+0,INGREDIENT,va,ACK-129,ve,USD 154.87,
+0,KITCHENUTENSIL,aaaaaa,AB:IOL-763,aaaaaaaaa,GBP 98.91,
+0,INGREDIENT,nuevo ingrediente espectacular,AD:POL-984,de,EUR 34.45,
+0,KITCHENUTENSIL,w,AN:SAU-123,w,USD 999.87,
