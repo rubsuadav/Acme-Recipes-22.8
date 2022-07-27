@@ -33,7 +33,7 @@ public class ChefPimpamCreateService implements AbstractCreateService<Chef, Pimp
 		masterId = request.getModel().getInteger("masterId");
 		item = this.repository.findOneItemById(masterId);
 		result = (item != null && !item.isPublished() && request.isPrincipal(item.getChef()) 
-			&& item.getTypeEntity().equals(Type.INGREDIENT) && this.repository.findManyPimpamsByItemId(masterId).isEmpty());
+			&& item.getTypeEntity().equals(Type.KITCHENUTENSIL) && this.repository.findManyPimpamsByItemId(masterId).isEmpty());
 
 		return result;
 	}

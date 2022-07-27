@@ -30,7 +30,7 @@
 	</jstl:choose>
 	
 	<jstl:choose>
-		<jstl:when test="${command != 'create' && typeEntity == 'INGREDIENT'}">
+		<jstl:when test="${command != 'create' && typeEntity == 'KITCHENUTENSIL'}">
 			<acme:button code="chef.item.form.button.show-pimpam" action="/chef/pimpam/list-items?masterId=${id}"/>
 		</jstl:when>
 	</jstl:choose>
