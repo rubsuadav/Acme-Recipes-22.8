@@ -64,6 +64,10 @@ public class ChefPimpamItemListService implements AbstractListService<Chef, Pimp
 		assert model != null;
 		
 		request.unbind(entity, model, "code", "instantiationMoment", "title", "budget");
+		
+		final Item item = this.repository.findOneItemByPimpamId(entity.getId());
+		
+		model.setAttribute("itemId", item.getCode());
 				
 	}
 	
