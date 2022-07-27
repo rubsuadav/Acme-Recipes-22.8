@@ -14,6 +14,7 @@ chef.item.form.button.create = Create
 chef.item.form.button.update = Update
 chef.item.form.button.delete = Delete
 chef.item.form.button.publish = Publish
+chef.item.form.button.show-pimpam = Pimpam
  
 chef.item.list.label.typeEntity = TypeEntity
 chef.item.list.label.name = Name

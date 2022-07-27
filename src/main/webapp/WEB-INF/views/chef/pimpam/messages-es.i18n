@@ -1,0 +1,28 @@
+chef.pimpam.form.label.code = Codigo:
+chef.pimpam.form.label.instantiation-moment = Fecha de instanciacion:
+chef.pimpam.form.label.title = Titlo:
+chef.pimpam.form.label.desciption = Descripcion:
+chef.pimpam.form.label.initial = Fecha de inicio:
+chef.pimpam.form.label.end = Fecha de fin:
+chef.pimpam.form.label.budget = Presupuesto:
+chef.pimpam.form.label.link = Info:
+chef.pimpam.form.label.conversion = Conversión:
+
+chef.pimpam.form.error.duplicated = El codigo ya esta siendo usado
+chef.pimpam.form.error.code = El patron "ddmmyy" debe de ser el año seleccionando los 2 ultimos digitos; el mes actual y el dia actual
+chef.pimpam.form.error.non-accepted-currency = La divisa debe de estar en el listado
+chef.pimpam.form.error.negative-budget = El presupuesto debe de ser positivo
+chef.pimpam.form.error.too-close-start-date = La fecha de inicio debe de ser mayor que la fecha de creacion (minimo 1 mes mayor)
+chef.pimpam.form.error.one-week = La fecha de fin debe de ser mayor que la fecha de inicio (minimo 1 semana)
+
+chef.pimpam.form.button.create = Asociar pimpam
+chef.pimpam.form.button.update = Actualizar
+chef.pimpam.form.button.delete = Borrar
+
+chef.pimpam.list.label.code = Codigo
+chef.pimpam.list.label.instantiation-moment = Fecha de instanciacion
+chef.pimpam.list.label.title =  Titulo
+chef.pimpam.list.label.budget = Presupuesto
+chef.pimpam.list.label.item = Objeto
+
+chef.pimpam.list.button.create = Asociar pimpam

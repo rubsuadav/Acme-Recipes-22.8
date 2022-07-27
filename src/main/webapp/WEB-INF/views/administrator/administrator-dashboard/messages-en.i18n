@@ -16,3 +16,9 @@ administrator.dashboard.form.label.average-budget-of-fine-dishes-by-status = Ave
 administrator.dashboard.form.label.deviation-budget-of-fine-dishes-by-status = Deviation budget of fine dishes by status
 administrator.dashboard.form.label.min-budget-of-fine-dishes-by-status = Min budget of fine dishes by status
 administrator.dashboard.form.label.max-budget-of-fine-dishes-by-status = Max budget of fine dishes by status
+
+administrator.dashboard.form.label.ratio-of-items-with-pimpams = Ratio of items with pimpams
+administrator.dashboard.form.label.average-budget-of-pimpams-by-currency = Average budget of pimpams by currency
+administrator.dashboard.form.label.deviation-budget-of-pimpams-by-currency = Deviation budget of pimpams by currency
+administrator.dashboard.form.label.min-budget-of-pimpams-by-currency = Min budget of pimpams by currency
+administrator.dashboard.form.label.max-budget-of-pimpams-by-currency = Max budget of pimpams by currency

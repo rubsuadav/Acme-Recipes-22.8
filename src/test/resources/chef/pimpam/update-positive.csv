@@ -1,0 +1,6 @@
+recordIndex,code,title,desciption,initial,end,budget,link
+0,19-,titulo 3,descripcion 3,2022/12/10 09:11,2022/12/18 09:11,USD 154.87,
+0,40-,va,esto es una gran request de prueba de cantidad de palabras que es capaz de contener menos de 255 caracteres evitando asi la validacion del campo lenght del framework de spring capaz de crear todo el codigo sql de las tablas de la base de datos con,2023/01/05 19:51,2023/01/13 21:22,EUR 34.45,
+0,32-,este es un titulo que tiene exactamente 100 caracteres por lo que pasara la prueba del test positivo,descripcion 3,2022/11/10 09:11,2022/11/18 23:45,GBP 109.67,
+0,11-,titulo de prueba,descripcion 3,2028/03/02 13:09,2028/03/10 18:00,"EUR 1,312.95",
+0,43-,aaaa,aaaaaaaaa,2031/09/10 12:34,2031/09/18 16:32,USD 999.87,

@@ -1,0 +1,2 @@
+itemRecordIndex,recordIndex,code,name,statement,initial,end,expenditure,link
+1,0,56-,titulo de prueba 1 que contiene exactamente 100 caracteres evitando el error de validacion de spring,descripcion de prueba,2022/11/10 12:00,2030/09/09 12:33,"GBP 1,987.98",
