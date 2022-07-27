@@ -9,6 +9,7 @@ import acme.entities.items.Item;
 import acme.entities.pimpams.Pimpam;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Request;
+import acme.framework.entities.Principal;
 import acme.framework.services.AbstractListService;
 import acme.roles.Chef;
 
@@ -29,9 +30,11 @@ public class ChefPimpamListService implements AbstractListService<Chef, Pimpam>{
 	public Collection<Pimpam> findMany(final Request<Pimpam> request) {
 		assert request != null;
 
-		Collection<Pimpam> result;
+		Collection<Pimpam> result;	
+		Principal principal;
 
-		result = this.repository.findManyPimpams();
+		principal = request.getPrincipal();
+		result = this.repository.findManyPimpamsByChefId(principal.getActiveRoleId());
 
 		return result;
 	}
@@ -45,6 +48,7 @@ public class ChefPimpamListService implements AbstractListService<Chef, Pimpam>{
 		request.unbind(entity, model, "code", "instantiationMoment", "title", "budget");
 		
 		final Item item = this.repository.findOneItemByPimpamId(entity.getId());
+		
 		model.setAttribute("itemId", item.getCode());
 		
 	}
