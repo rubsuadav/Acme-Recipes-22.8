@@ -148,7 +148,7 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		Map<String, Double>	minBudgetOfPimpamsByCurrency;
 		Map<String, Double>	maxBudgetOfPimpamsByCurrency;
 		
-		ratioOfItemsWithPimpams = this.repository.ratioOfItemsWithPimpams(Type.INGREDIENT);
+		ratioOfItemsWithPimpams = this.repository.ratioOfItemsWithPimpams(Type.KITCHENUTENSIL);
 		
 		averageBudgetOfPimpamsByCurrency = new HashMap<>();
 		for(int i=0; i<currencies.size(); i++) {

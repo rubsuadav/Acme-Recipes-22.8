@@ -15,7 +15,7 @@ public class ChefPimpamDeleteTest extends TestHarness{
 	public void positiveTest(final int recordIndex, final String code, final String title, final String desciption
 		,final String initial, final String end, final String budget, final String link) {
 		
-		super.signIn("chef2", "chef2");
+		super.signIn("chef1", "chef1");
 
 		super.clickOnMenu("Chef", "List pimpams");
 		super.checkListingExists();

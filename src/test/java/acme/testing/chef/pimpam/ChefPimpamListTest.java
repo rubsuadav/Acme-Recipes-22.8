@@ -18,10 +18,12 @@ public class ChefPimpamListTest extends TestHarness{
 
 		super.clickOnMenu("Chef", "List pimpams");
 		super.checkListingExists();
+		super.sortListing(0,"asc");
 
 		super.checkColumnHasValue(recordIndex, 0, code);
 		super.checkColumnHasValue(recordIndex, 2, title);
 		super.checkColumnHasValue(recordIndex, 3, budget);
+		
 		super.signOut();
 
 	}
