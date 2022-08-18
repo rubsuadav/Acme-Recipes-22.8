@@ -3,6 +3,8 @@ package acme.features.chef.recipe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.components.SpamFilter;
+import acme.entities.configurations.SystemConfiguration;
 import acme.entities.recipes.Recipe;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
@@ -81,6 +83,26 @@ public class ChefRecipePublishService implements AbstractUpdateService<Chef, Rec
 			errors.state(request, existing == null || existing.getId() == entity.getId(), "code", "chef.item.form.error.duplicated");
 		}
 		
+		final SystemConfiguration configuration = this.repository.findSystemConfiguration();
+
+		if (!errors.hasErrors("heading")) {
+			errors.state(request, SpamFilter.spamValidator(entity.getHeading(), configuration.getWeakSpamWords(), configuration.getStrongSpamWords(), 
+														   configuration.getWeakSpamThreshold(), configuration.getStrongSpamThreshold()), 
+																			"heading", "form.error.spam");
+		}
+		
+		if (!errors.hasErrors("description")) {
+			errors.state(request, SpamFilter.spamValidator(entity.getDescription(), configuration.getWeakSpamWords(), configuration.getStrongSpamWords(),
+															configuration.getWeakSpamThreshold(), configuration.getStrongSpamThreshold()), 
+																			"description", "form.error.spam");
+		}
+		
+		if (!errors.hasErrors("preparationNotes")) {
+			errors.state(request, SpamFilter.spamValidator(entity.getPreparationNotes(), configuration.getWeakSpamWords(), configuration.getStrongSpamWords(),
+															configuration.getWeakSpamThreshold(), configuration.getStrongSpamThreshold()), 
+																			"preparationNotes", "form.error.spam");
+		}
+		
 	}
 
 	@Override
@@ -89,7 +111,6 @@ public class ChefRecipePublishService implements AbstractUpdateService<Chef, Rec
 		assert entity != null;
 		
 		entity.setPublished(true);
-		
 		this.repository.save(entity);
 
 	}
