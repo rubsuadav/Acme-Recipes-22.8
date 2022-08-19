@@ -9,3 +9,7 @@ recordIndex,typeEntity,name,code,description,retailPrice,link
 2,INGREDIENT,este es un gran nombre de prueba llamado nombre de prueba 7 que es capaz de contener mas de 100 caracteres,UWU-886,Una septima descipción,EUR 15.00,
 2,KITCHENUTENSIL,nombre de prueba 8,UWU-887,Una cuarta descipción,YEN 55.00,
 2,INGREDIENT,nombre de prueba 9,UWU-888,esta es una gran descripcion de prueba llamada descripcion de prueba 7 que es capaz de contener mas de 255 caracteres debido a que es no es posible que dicha descripcion contenga mas de 255 caracteres debido a que la validacion escrita en el servicio lo impide,USD 88.15,
+2,INGREDIENT,mi querida sexy de nigeria one million,UWU-888,rhh,USD 127.54,
+2,INGREDIENT,nombre de prueba 10,AL:RES-512,los de nigeria sexy you´re won one million de euros,"GBP 1,234.98",
+2,KITCHENUTENSIL,mi querida sexy de nigeria one million,LK:ASU-571,rhh,EUR 487.19,
+2,KITCHENUTENSIL,nombre de prueba 10,LE:SAI-342,los de nigeria sexy you´re won one million de euros,"USD 7,19.57",
