@@ -6,3 +6,5 @@ administrator.bulletin.form.label.link = Link:
 
 administrator.bulletin.form.label.confirmation = Confirm:
 administrator.bulletin.form.button.create = Create
+
+form.error.spam = Contains spam

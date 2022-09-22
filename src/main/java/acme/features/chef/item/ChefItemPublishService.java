@@ -3,6 +3,8 @@ package acme.features.chef.item;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.components.SpamFilter;
+import acme.entities.configurations.SystemConfiguration;
 import acme.entities.items.Item;
 import acme.framework.components.models.Model;
 import acme.framework.controllers.Errors;
@@ -91,6 +93,20 @@ public class ChefItemPublishService implements AbstractUpdateService<Chef, Item>
 
 			errors.state(request, acceptedCurrencies, "retailPrice", "chef.item.form.error.non-accepted-currency");
 			errors.state(request, entity.getRetailPrice().getAmount() > 0, "retailPrice", "chef.item.form.error.negative-retail-price");
+		}
+		
+		final SystemConfiguration configuration = this.repository.findSystemConfiguration();
+
+		if (!errors.hasErrors("name")) {
+			errors.state(request, SpamFilter.spamValidator(entity.getName(), configuration.getWeakSpamWords(), configuration.getStrongSpamWords(), 
+														   configuration.getWeakSpamThreshold(), configuration.getStrongSpamThreshold()), 
+																			"name", "form.error.spam");
+		}
+		
+		if (!errors.hasErrors("description")) {
+			errors.state(request, SpamFilter.spamValidator(entity.getDescription(), configuration.getWeakSpamWords(), configuration.getStrongSpamWords(),
+															configuration.getWeakSpamThreshold(), configuration.getStrongSpamThreshold()), 
+																			"description", "form.error.spam");
 		}
 
 	}

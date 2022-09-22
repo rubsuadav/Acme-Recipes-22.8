@@ -4,7 +4,7 @@
 <%@taglib prefix="acme" uri="urn:jsptagdir:/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:input-moment code="any.peep.form.label.instantiation-moment" path="instantiationMoment" readonly="true"/>
+	<acme:input-moment code="any.peep.form.label.instantiation-moment" path="creationMoment" readonly="true"/>
 	<acme:input-textbox code="any.peep.form.label.heading" path="heading"/>
 	<acme:input-textbox code="any.peep.form.label.writer" path="writer"/>
 	<acme:input-textarea code="any.peep.form.label.piece-of-text" path="pieceOfText"/>
